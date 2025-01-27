@@ -27,7 +27,7 @@ a {
     position: fixed;
     background-color:  #99AAB5;
     display: inline-block;
-    color: white;
+    color: black;
     font-style: arial sans-serif;
     border: 2px solid #2C2F33;
     border-radius: 5px; 
@@ -56,7 +56,6 @@ a {
     font-size: 15px;
     float: left;
     margin: 10px;
-    color: white;
 }
 
 /* unordered list for the navigation bar */
@@ -210,9 +209,6 @@ a {
 
 /*Skill page */
 
-.Skills {
-    background-color: #d427f7;
-}
 .Skills h1 {
     justify-content: center;
     text-align: center;
@@ -232,6 +228,7 @@ a {
     justify-content: space-around;
     max-width: 1200px;
     max-height: auto;
+    color: white;
 }
 /*Skills */
 
@@ -262,12 +259,13 @@ a {
     border-radius: 5px;
     width: 200px;
     height: auto;
-    background-color: white;
+    background-color: #d427f7;
     border-width: 30px;
     border-color:solid white;
     text-align: center;
     color: black;
     box-shadow: 5px 5px 20px black;
+    color: white;
 
 }
 .Card_Component img{
@@ -380,7 +378,7 @@ a {
 }
 /* WHen you click on the contact boxes */
 .contact-inputs:focus{
-    border:5px solid purple;
+    border:5px solid purple  ;
 }
 
 .textarea {
@@ -401,7 +399,7 @@ a {
     text-align: center;
     justify-content: center;
     transition: all 0.3s;
-    color: white;
+    color: white; 
 }
 
 .contact-left button:hover{
@@ -414,7 +412,7 @@ footer {
     text-align: center;
     padding: 5px;
     background-color: #99AAB5;
-    color: white;
+    color: black;
   }
 
 /*Mobile menu */
