@@ -1,0 +1,557 @@
+/* navigation bar */
+html:focus-within{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2C2F33;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    display: block;
+    height:100%;
+    width:100%;
+    padding: 60px;
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.portfolio-nav{
+    transition: top 0.3s;
+    top: -50px;
+    position: fixed;
+    background-color:  #99AAB5;
+    display: inline-block;
+    color: black;
+    font-style: arial sans-serif;
+    border: 2px solid #2C2F33;
+    border-radius: 5px; 
+    margin: auto; 
+    padding: 35px;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    top: 0px;
+    box-sizing:border-box; 
+    z-index: 1;
+}
+
+/* profile pic */
+.portfolio-nav img {
+    width: 50px;
+    position: relative; 
+    margin: 0 auto;
+    float: left;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+/* h3 in element */
+.portfolio-nav h3 {
+    font-size: 15px;
+    float: left;
+    margin: 10px;
+}
+
+/* unordered list for the navigation bar */
+.portfolio-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Links styles  */
+.portfolio-nav a {
+    margin: 10px;
+    float:right; 
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none; 
+    background-color: #d427f7; 
+    color: white; /* Button text color */
+    border: 2px solid #2C2F33; /* Border for the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    text-align: center; /* Center the text */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+/*Button */
+
+.portfolio-nav a:hover
+{
+    background-color:#e69bf5;
+}
+
+/*HomePage, the first thing you see when looking at the website */
+.HomePage{
+    display: block;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.HomePage img{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    vertical-align: center;
+    position: relative;
+    border-radius: 100%;
+}
+
+.HomePage button{
+    float:center; 
+    padding: 20px 26px;
+    text-decoration: none; 
+    background-color: #d427f7; 
+    color: white; /* Button text color */
+    border: 2px solid white; /* Border for the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    text-align: center; /* Center the text */
+    transition: all 0.3s;
+}
+
+.HomePage button:hover
+{
+    background-color:#e69bf5;
+    transform:translateY(-10px)
+
+}
+
+.HomePage .Logos {
+    display: flex; 
+    flex-direction: row;
+    padding: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    border-radius: 5px;
+
+}
+
+.HomePage .Logos img
+{
+    margin: 0 10px;
+    max-height: 100px;
+    max-width: 100px;
+    transition: all 0.3s;
+}
+
+.HomePage .Logos img:hover
+{
+    background-color:#e69bf5;
+    transform:translateY(-5px)
+}
+
+.HomePage .Resume {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+}
+/*About me page */
+.About_me{
+    display: flex;
+    margin-bottom: 50px;
+    margin: 20px auto;
+    position: relative;
+    padding: 50px 20px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.About_me h1 {
+    margin-top: 100px;
+}
+
+/*Flex for the image and the text  */
+.About_me .About_me_flex {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.About_me .About_me_flex img {
+    border-radius: 10%;
+    width:  100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px
+}
+
+.About_me .About_me_flex p {
+    max-width: 500px ;
+    height: auto;
+    text-align:center;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*Skill page */
+
+.Skills {
+    background-color: #095F80;
+}
+.Skills h1 {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.Skill_Flex{
+    display: flex; 
+    margin: 5px auto;
+    align-items: flex-end;
+    flex-wrap:wrap; 
+    position: relative;
+    justify-content: space-around;
+    max-width: 1200px;
+    max-height: auto;
+}
+/*Skills */
+
+/*Cards for each programing language used */
+
+.Projects {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.Projects h1 {
+    margin-top: 200px;
+}
+.Project_Flex{
+    display: flex; 
+    margin: 5px auto;
+    align-items: flex-end;
+    flex-wrap:wrap; 
+    position: relative;
+    justify-content: space-around;
+}
+
+.Card_Component{
+    display: block;
+    margin: 100px auto;
+    position: relative; 
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    border-width: 30px;
+    border-color:solid white;
+    text-align: center;
+    color: black;
+    box-shadow: 5px 5px 20px black;
+
+}
+.Card_Component img{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.Card_Component2{
+    display: block;
+    margin: 50px auto;
+    position: relative; 
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    max-height: 500px;
+    background-color: #d427f7;
+    border-width: 30px;
+    border-color:solid white;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 20px black;
+    transition: all 0.3s;
+
+}
+
+.Card_Component2:hover{
+    background-color:#e69bf5;
+    transform:translateY(-10px)
+}
+.Card_Component2 img{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.Card_Component2 p {
+    font-size: 16px;
+    text-align: center;
+    color:white;
+}
+
+/*Image for the cards */
+
+
+
+
+/*Contact */
+
+.Contact h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    position:relative;
+}
+
+.Contact-flex{
+    max-height: 1000px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    margin: 0 auto;
+    position:relative;
+
+
+}
+
+.Contact-flex .contact-left-title {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 0;
+    position:relative;
+    color:white;
+}
+/*Contact me */
+
+.contact-inputs{
+    padding: 15px 30px;
+    border: none;
+    outline: none; 
+    padding-left: 25px;
+    color: black;
+    border-radius: 50px;
+    position:relative;
+}
+
+/*Contact me text boxes*/
+.Contact-flex .contact-left{
+    display: flex;
+    flex-direction:column;
+    flex-direction: start;
+    gap: 30px;
+    position:relative;
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+}
+.Contact-flex .contact-right{
+    max-width: 600px;
+    max-height: 600px;
+}
+/*Contact me image*/
+.Contact-flex .contact-right img{
+    max-width: 500px;
+    height: auto;
+    width: 100%;
+    position:relative;
+}
+/* WHen you click on the contact boxes */
+.contact-inputs:focus{
+    border:5px solid purple;
+}
+
+.textarea {
+    padding: 50px 50px;
+}
+/*Submit button */
+.contact-left button{
+    position:relative;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #d427f7;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s;
+    color: white;
+}
+
+.contact-left button:hover{
+    background-color:#e69bf5;
+    transform:translateY(-10px)
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+/*Mobile menu */
+
+/*Attempt to change it for mobile, it still does not work */
+@media only screen and  (max-width: 800px){
+
+    .About_me{
+        display:flex;
+        padding: 10px;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 0;
+        justify-content: center;
+    }
+    .About_me .About_me_flex {
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .About_me .About_me_flex img{
+        max-width: 600px;
+        width: 100%; 
+        height: auto;
+        margin: 0 auto;
+    }
+    .About_me .About_me_flex, p{
+        max-width: 600px;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        text-align:center;
+        margin: 10px auto; 
+
+    }
+
+    .Skill_Flex {
+        display: flex
+    }
+
+    .Contact h1 {
+        margin-top: 200px;
+        text-align: center;
+        color: white;
+        position:relative;
+    }
+    
+    .Contact-flex{
+        flex-direction: column;
+        display: flex;
+        align-items: center; 
+        margin: 0 auto;
+        
+    }
+    
+    .Contact-flex .contact-left-title {
+        opacity: 0;
+    }
+    /*Contact me */
+    
+    .contact-inputs{
+        padding: 20px 50px;
+        border: none;
+        outline: none; 
+        color: black;
+        border-radius: 50px;
+        order: 2;
+        margin-bottom: 10px;
+    }
+    
+    /*Contact me text boxes*/
+    .Contact-flex .contact-left{
+        display: flex;
+        flex-direction:column;
+        flex-direction: start;
+        gap: 10px;
+    }
+    
+    /*Contact me image*/
+    .Contact-flex .contact-right img{
+        order: 1;
+        max-width: 700px;
+        height: auto;
+        width: 100%;
+    }
+    .contact-left button {
+        order: 3;
+    }
+    /* WHen you click on the contact boxes */
+    .contact-inputs:focus{
+        border:5px solid pink;
+    }
+    
+    .textarea {
+        padding: 50px 50px;
+    }
+
+}
+
+@media only screen and  (max-width: 500px){
+    .About_me{
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 0;
+        margin-bottom: 30px;
+    }
+    .About_me .About_me_flex {
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+    }
+    .About_me .About_me_flex img{
+        max-width: 500px;
+        height: auto;
+        width: 100%;
+
+    }
+    .About_me .About_me_flex p{
+        width: 500px;
+        height: auto;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 10px; 
+    }
+
+    .Contact-flex{
+        flex-direction: column;
+        display: flex;
+        align-items: center; 
+        margin: 0 auto;
+    
+    }
+
+}
