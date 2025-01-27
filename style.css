@@ -19,6 +19,7 @@ div {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .portfolio-nav{
@@ -56,6 +57,7 @@ a {
     font-size: 15px;
     float: left;
     margin: 10px;
+    color: white;
 }
 
 /* unordered list for the navigation bar */
@@ -189,16 +191,8 @@ a {
     gap: 20px;
 }
 
-.About_me .About_me_flex img {
-    border-radius: 10%;
-    width:  100%;
-    max-width: 500px;
-    height: auto;
-    margin: 20px
-}
-
 .About_me .About_me_flex p {
-    max-width: 500px ;
+    max-width: 700px ;
     height: auto;
     text-align:center;
     width: 100%;
@@ -222,13 +216,14 @@ a {
 .Skill_Flex{
     display: flex; 
     margin: 5px auto;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-wrap:wrap; 
     position: relative;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-width: 1200px;
     max-height: auto;
     color: white;
+    gap: 20px;
 }
 /*Skills */
 
@@ -412,8 +407,12 @@ footer {
     text-align: center;
     padding: 5px;
     background-color: #99AAB5;
-    color: black;
+    color: white;
   }
+
+footer a {
+    color:blue;
+}
 
 /*Mobile menu */
 
