@@ -27,7 +27,7 @@ a {
     position: fixed;
     background-color:  #99AAB5;
     display: inline-block;
-    color: black;
+    color: white;
     font-style: arial sans-serif;
     border: 2px solid #2C2F33;
     border-radius: 5px; 
@@ -56,6 +56,7 @@ a {
     font-size: 15px;
     float: left;
     margin: 10px;
+    color: white;
 }
 
 /* unordered list for the navigation bar */
@@ -210,7 +211,7 @@ a {
 /*Skill page */
 
 .Skills {
-    background-color: #095F80;
+    background-color: #d427f7;
 }
 .Skills h1 {
     justify-content: center;
