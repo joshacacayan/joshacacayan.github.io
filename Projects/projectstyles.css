@@ -178,19 +178,37 @@ a {
         max-width: 400px;
     }
 }
-/*
-.About_me .About_me_flex {
-    display:flex;
+/*Chat App */
+
+.Chat_App_Main_Page{
+    display: flex;
     align-items: center;
-    flex-direction: row;
+    margin: 0 auto;
     justify-content: center;
-    gap: 20px;
+    color: white;
+    flex-wrap:wrap;
 }
 
-.About_me .About_me_flex img {
-    border-radius: 10%;
-    width:  100%;
-    max-width: 500px;
+.Chat_App_Main_Page img{
+    max-width: 1500px;
     height: auto;
-    margin: 20px
+    border-radius: 10px;
+    justify-content: center
+}
+
+.Chat_App_Main_Page p{
+    width: 1500px;
+    font-size: 18px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1324px) {
+    .Chat_App_Main_Page img{
+        width: 90%;
+        height: auto; 
+    }
+    .Chat_App_Main_Page p{
+        width: 80%;
+        height: auto;
+    }
 }
