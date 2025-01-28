@@ -293,6 +293,12 @@ a {
 
 }
 
+.Card_Component2 h2, .Card_Component2 p {
+    margin: 10px 0;
+    font-size: 18px; 
+}
+
+
 .Card_Component2:hover{
     background-color:#d6ffff;
     transform:translateY(-10px)
@@ -301,6 +307,7 @@ a {
     width: 300px;
     height: auto;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .Card_Component2 p {
