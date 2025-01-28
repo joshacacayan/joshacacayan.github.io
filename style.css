@@ -1,5 +1,5 @@
 /* navigation bar */
-html:focus-within{
+html:focus-within {
     scroll-behavior: smooth;
 }
 
@@ -11,10 +11,10 @@ body {
 
 div {
     display: block;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     padding: 60px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 a {
@@ -22,30 +22,30 @@ a {
     color: white;
 }
 
-.portfolio-nav{
+.portfolio-nav {
     transition: top 0.3s;
     top: -50px;
     position: fixed;
-    background-color:  #ffffff;
+    background-color: #ffffff;
     display: inline-block;
     color: #4e4f50;
     font-style: arial sans-serif;
     border: 2px solid #2C2F33;
-    border-radius: 5px; 
-    margin: auto; 
+    border-radius: 5px;
+    margin: auto;
     padding: 35px;
     width: 100%;
     height: auto;
     vertical-align: middle;
     top: 0px;
-    box-sizing:border-box; 
+    box-sizing: border-box;
     z-index: 1;
 }
 
 /* profile pic */
 .portfolio-nav img {
     width: 50px;
-    position: relative; 
+    position: relative;
     margin: 0 auto;
     float: left;
     vertical-align: middle;
@@ -71,27 +71,31 @@ a {
 /* Links styles  */
 .portfolio-nav a {
     margin: 10px;
-    float:right; 
+    float: right;
     display: block;
     padding: 10px 16px;
-    text-decoration: none; 
-    background-color: #4e4f50; 
-    color: white; /* Button text color */
-    border: 2px solid #2C2F33; /* Border for the button */
-    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    background-color: #4e4f50;
+    color: white;
+    /* Button text color */
+    border: 2px solid #2C2F33;
+    /* Border for the button */
+    border-radius: 5px;
+    /* Rounded corners */
     font-size: 1rem;
-    text-align: center; /* Center the text */
+    text-align: center;
+    /* Center the text */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+
 /*Button */
 
-.portfolio-nav a:hover
-{
-    background-color:#7a7a7a;
+.portfolio-nav a:hover {
+    background-color: #7a7a7a;
 }
 
 /*HomePage, the first thing you see when looking at the website */
-.HomePage{
+.HomePage {
     display: block;
     margin-top: 50px;
     margin-left: 0;
@@ -100,7 +104,8 @@ a {
     text-align: center;
     color: white;
 }
-.HomePage img{
+
+.HomePage img {
     width: 300px;
     height: auto;
     margin: 0 auto;
@@ -110,28 +115,30 @@ a {
     border-radius: 100%;
 }
 
-.HomePage button{
-    float:center; 
+.HomePage button {
+    float: center;
     padding: 20px 26px;
-    text-decoration: none; 
-    background-color: white; 
-    color: #4e4f50; /* Button text color */
-    border: 2px solid white; /* Border for the button */
-    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    background-color: white;
+    color: #4e4f50;
+    /* Button text color */
+    border: 2px solid white;
+    /* Border for the button */
+    border-radius: 5px;
+    /* Rounded corners */
     font-size: 1rem;
-    text-align: center; /* Center the text */
+    text-align: center;
+    /* Center the text */
     transition: all 0.3s;
 }
 
-.HomePage button:hover
-{
-    background-color:#d6ffff;
-    transform:translateY(-10px)
-
+.HomePage button:hover {
+    background-color: #d6ffff;
+    transform: translateY(-10px)
 }
 
 .HomePage .Logos {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     padding: 5px;
     margin: 0 auto;
@@ -142,18 +149,16 @@ a {
 
 }
 
-.HomePage .Logos img
-{
+.HomePage .Logos img {
     margin: 0 10px;
     max-height: 100px;
     max-width: 100px;
     transition: all 0.3s;
 }
 
-.HomePage .Logos img:hover
-{
-    background-color:#d6ffff;
-    transform:translateY(-5px)
+.HomePage .Logos img:hover {
+    background-color: #d6ffff;
+    transform: translateY(-5px)
 }
 
 .HomePage .Resume {
@@ -162,8 +167,9 @@ a {
     padding: 0;
     margin: 0 auto;
 }
+
 /*About me page */
-.About_me{
+.About_me {
     display: flex;
     margin-bottom: 50px;
     margin: 20px auto;
@@ -184,7 +190,7 @@ a {
 
 /*Flex for the image and the text  */
 .About_me .About_me_flex {
-    display:flex;
+    display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
@@ -192,9 +198,9 @@ a {
 }
 
 .About_me .About_me_flex p {
-    max-width: 700px ;
+    max-width: 700px;
     height: auto;
-    text-align:center;
+    text-align: center;
     width: 100%;
     margin: 20px auto;
     font-size: 18px;
@@ -222,9 +228,12 @@ a {
     justify-content: space-evenly;
     max-width: 1200px;
     color: white;
-    gap: 15px; /* increased gap for better spacing */
-    margin-bottom: 30px; /* increased margin to separate from other content */
+    gap: 15px;
+    /* increased gap for better spacing */
+    margin-bottom: 30px;
+    /* increased margin to separate from other content */
 }
+
 /*Skills */
 
 /*Cards for each programing language used */
@@ -234,56 +243,64 @@ a {
     text-align: center;
     color: white;
 }
+
 .Projects .headerproject {
     margin-top: 200px;
 }
-.Project_Flex{
-    display: flex; 
+
+.Project_Flex {
+    display: flex;
     margin: 5px auto;
     align-items: flex-end;
-    flex-wrap:wrap; 
+    flex-wrap: wrap;
     position: relative;
     justify-content: space-around;
 }
 
 .Card_Component {
     display: block;
-    margin: 20px auto; /* reduced margin to fit in one page */
+    margin: 20px auto;
+    /* reduced margin to fit in one page */
     position: relative;
     padding: 20px;
     border-radius: 5px;
-    width: 180px; /* smaller width for more cards per row */
+    width: 180px;
+    /* smaller width for more cards per row */
     height: auto;
     background-color: white;
-    border-width: 15px; /* reduced border width */
+    border-width: 15px;
+    /* reduced border width */
     border-color: solid white;
     text-align: center;
     color: #4e4f50;
     box-shadow: 5px 5px 20px #000000;
-    transition: transform 0.3s ease; /* add hover effect */
+    transition: transform 0.3s ease;
+    /* add hover effect */
 }
 
 .Card_Component:hover {
-    transform: scale(1.05); /* slightly enlarge on hover */
+    transform: scale(1.05);
+    /* slightly enlarge on hover */
 }
 
 .Card_Component img {
-    width: 80px; /* reduced image size */
+    width: 80px;
+    /* reduced image size */
     height: auto;
     border-radius: 5px;
 }
 
-.Card_Component2{
+.Card_Component2 {
     display: block;
     margin: 50px auto;
-    position: relative; 
+    position: relative;
     padding: 20px;
     border-radius: 5px;
     max-width: 500px;
     max-height: 500px;
     background-color: white;
     border-width: 30px;
-    border-color:solid white;
+    border-color: solid white;
     text-align: center;
     color: #4e4f50;
     box-shadow: 5px 5px 20px #000000;
@@ -291,11 +308,12 @@ a {
 
 }
 
-.Card_Component2:hover{
-    background-color:#d6ffff;
-    transform:translateY(-10px)
+.Card_Component2:hover {
+    background-color: #d6ffff;
+    transform: translateY(-10px)
 }
-.Card_Component2 img{
+
+.Card_Component2 img {
     width: 300px;
     height: auto;
     border-radius: 5px;
@@ -304,7 +322,7 @@ a {
 .Card_Component2 p {
     font-size: 16px;
     text-align: center;
-    color:#4e4f50;
+    color: #4e4f50;
 }
 
 /*Image for the cards */
@@ -318,16 +336,16 @@ a {
     margin-top: 100px;
     text-align: center;
     color: white;
-    position:relative;
+    position: relative;
 }
 
-.Contact-flex{
+.Contact-flex {
     max-height: 1000px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-evenly;
     margin: 0 auto;
-    position:relative;
+    position: relative;
 
 
 }
@@ -337,55 +355,60 @@ a {
     margin: 0 auto;
     font-size: 15px;
     padding: 0;
-    position:relative;
-    color:white;
+    position: relative;
+    color: white;
 }
+
 /*Contact me */
 
-.contact-inputs{
+.contact-inputs {
     padding: 15px 30px;
     border: none;
-    outline: none; 
+    outline: none;
     padding-left: 25px;
     color: #4e4f50;
     border-radius: 50px;
-    position:relative;
+    position: relative;
 }
 
 /*Contact me text boxes*/
-.Contact-flex .contact-left{
+.Contact-flex .contact-left {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     flex-direction: start;
     gap: 30px;
-    position:relative;
+    position: relative;
     max-width: 600px;
     max-height: 600px;
     width: 100%;
     height: 100%;
 }
-.Contact-flex .contact-right{
+
+.Contact-flex .contact-right {
     max-width: 600px;
     max-height: 600px;
 }
+
 /*Contact me image*/
-.Contact-flex .contact-right img{
+.Contact-flex .contact-right img {
     max-width: 500px;
     height: auto;
     width: 100%;
-    position:relative;
+    position: relative;
 }
+
 /* WHen you click on the contact boxes */
-.contact-inputs:focus{
-    border:5px solid purple  ;
+.contact-inputs:focus {
+    border: 5px solid purple;
 }
 
 .textarea {
     padding: 50px 50px;
 }
+
 /*Submit button */
-.contact-left button{
-    position:relative;
+.contact-left button {
+    position: relative;
     display: flex;
     align-items: center;
     padding: 15px 30px;
@@ -394,16 +417,16 @@ a {
     gap: 10px;
     border: none;
     border-radius: 50px;
-    cursor:pointer;
+    cursor: pointer;
     text-align: center;
     justify-content: center;
     transition: all 0.3s;
-    color: black; 
+    color: black;
 }
 
-.contact-left button:hover{
-    background-color:#d6ffff;
-    transform:translateY(-10px)
+.contact-left button:hover {
+    background-color: #d6ffff;
+    transform: translateY(-10px)
 }
 
 footer {
@@ -412,19 +435,19 @@ footer {
     padding: 5px;
     background-color: white;
     color: #4e4f50;
-  }
+}
 
 footer a {
-    color:blue;
+    color: blue;
 }
 
 /*Mobile menu */
 
 /*Attempt to change it for mobile, it still does not work */
-@media only screen and  (max-width: 800px){
+@media only screen and (max-width: 800px) {
 
-    .About_me{
-        display:flex;
+    .About_me {
+        display: flex;
         padding: 10px;
         width: 90%;
         text-align: center;
@@ -433,6 +456,7 @@ footer a {
         border-radius: 0;
         justify-content: center;
     }
+
     .About_me .About_me_flex {
         flex-direction: column;
         padding: 20px;
@@ -441,29 +465,35 @@ footer a {
         justify-content: center;
 
     }
-    .About_me .About_me_flex img{
+
+    .About_me .About_me_flex img {
         max-width: 600px;
-        width: 100%; 
+        width: 100%;
         height: auto;
         margin: 0 auto;
     }
-    .About_me .About_me_flex, p{
+
+    .About_me .About_me_flex,
+    p {
         max-width: 600px;
         width: 100%;
         height: auto;
         font-size: 15px;
-        text-align:center;
-        margin: 10px auto; 
+        text-align: center;
+        margin: 10px auto;
 
     }
+
     .Skill_Flex {
         justify-content: center;
-        gap: 10px; 
+        gap: 10px;
     }
+
     .Card_Component {
         width: 150px;
         padding: 15px;
     }
+
     .Card_Component img {
         width: 70px;
     }
@@ -472,63 +502,66 @@ footer a {
         margin-top: 200px;
         text-align: center;
         color: white;
-        position:relative;
+        position: relative;
     }
-    
-    .Contact-flex{
+
+    .Contact-flex {
         flex-direction: column;
         display: flex;
-        align-items: center; 
+        align-items: center;
         margin: 0 auto;
-        
+
     }
-    
+
     .Contact-flex .contact-left-title {
         opacity: 0;
     }
+
     /*Contact me */
-    
-    .contact-inputs{
+
+    .contact-inputs {
         padding: 20px 50px;
         border: none;
-        outline: none; 
+        outline: none;
         color: #4e4f50;
         border-radius: 50px;
         order: 2;
         margin-bottom: 10px;
     }
-    
+
     /*Contact me text boxes*/
-    .Contact-flex .contact-left{
+    .Contact-flex .contact-left {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         flex-direction: start;
         gap: 10px;
     }
-    
+
     /*Contact me image*/
-    .Contact-flex .contact-right img{
+    .Contact-flex .contact-right img {
         order: 1;
         max-width: 700px;
         height: auto;
         width: 100%;
     }
+
     .contact-left button {
         order: 3;
     }
+
     /* WHen you click on the contact boxes */
-    .contact-inputs:focus{
-        border:5px solid pink;
+    .contact-inputs:focus {
+        border: 5px solid pink;
     }
-    
+
     .textarea {
         padding: 50px 50px;
     }
 
 }
 
-@media only screen and  (max-width: 500px){
-    .About_me{
+@media only screen and (max-width: 500px) {
+    .About_me {
         padding: 10px;
         text-align: center;
         align-items: center;
@@ -536,42 +569,49 @@ footer a {
         border-radius: 0;
         margin-bottom: 30px;
     }
+
     .About_me .About_me_flex {
         flex-direction: column;
         padding: 10px;
         margin: 10px;
     }
-    .About_me .About_me_flex img{
+
+    .About_me .About_me_flex img {
         max-width: 500px;
         height: auto;
         width: 100%;
 
     }
-    .About_me .About_me_flex p{
+
+    .About_me .About_me_flex p {
         width: 500px;
         height: auto;
         font-size: 12px;
         line-height: 1.5;
-        padding: 0 10px; 
+        padding: 0 10px;
     }
 
-    .Contact-flex{
+    .Contact-flex {
         flex-direction: column;
         display: flex;
-        align-items: center; 
+        align-items: center;
         margin: 0 auto;
-    
+
     }
 
-        .Skill_Flex {
+    .Skill_Flex {
         justify-content: center;
         gap: 10px;
     }
+
     .Card_Component {
-        width: 120px; /* even smaller cards */
+        width: 120px;
+        /* even smaller cards */
         padding: 10px;
     }
+
     .Card_Component img {
-        width: 60px; /* further reduced image size */
+        width: 60px;
+        /* further reduced image size */
     }
 }

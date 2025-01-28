@@ -20,13 +20,14 @@ a {
     display: flex;
     flex-direction:row;
     align-items: center; 
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     margin: 10px 0;
     gap: 10px;
 
 }
-.Main_Page .Logo {
+.Logo {
+    display: flex;
     max-width: 500px;
     width: 100%;
     align-items:center;
@@ -34,13 +35,29 @@ a {
     margin: 0 auto;
 }
 
-.Project_Description p {
-    max-width:500px;
-    max-height: 500px;
+.Main_Page .Project_Description {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+    max-width: 500px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 5px;
+    border: 5px solid lightgreen;
+}
+
+.Main_Page .Project_Description p {
+    max-width:450px;
+    max-height: auto;
     margin: 0 auto;
     text-align: center;
-    width: 100%;
-    height: 100%;
+    font-size: 15px;
+    color: lightgreen;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
 
 }
 
@@ -54,7 +71,7 @@ a {
     width: 100%;
     height: 100%;
     max-width: 500px;
-    max-height: 500px;
+    max-height: auto;
     background-color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 10px solid;
@@ -73,7 +90,7 @@ a {
 }
 
 .Main_Page .Tools_Used img {
-    width: 100px;
+    max-width: 100px;
     height: auto;
 }
 .Main_Page .Tools_Used  li {
@@ -84,42 +101,81 @@ a {
     width: auto; /* Adjust width as per content */
 }
 
-.Project_Description{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: black;
-    border-radius: 5px;
-    border: 5px solid lightgreen;
-    margin: 0 auto;
-    padding: 10px;
-    width : 60%;
-    height: 60%;
-    max-width: 1200px;
-    max-height: 600px;
-    box-sizing: border-box;
-    box-shadow: 5px 5px 20px black;
-
+.Main_Page video {
+    max-width: 800px;
+    max-height: auto;
 }
-
-.Project_Description p {
-    color: lightgreen;
-    text-align: center;
-    font-size: 18px;
-}
-
-@media only screen and  (max-width: 1324px){
+/* Media Query for Smaller Screens */
+@media only screen and (max-width: 1324px) {
     .Main_Page {
-        flex-direction:column;
-        align-items: center; 
-        justify-content: space-around;
-        
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        justify-content: center;
+        gap: 20px; /* Increase gap for spacing */
     }
-    .Main_Page .Logo{
+
+    .Logo {
+        width: 80%; /* Make logo more responsive */
+        max-width: 300px;
         order: 1;
     }
-    .Main_Page .Tools_Used{
-        order: 2;
+
+    .Main_Page .Project_Description {
+        width: 90%;
+        max-width: 450px;
+        padding: 15px;
+        font-size: 16px; /* Make text a bit smaller for small screens */
+        order: 4;
+    }
+
+    .Main_Page .Tools_Used {
+        width: 80%;
+        max-width: 400px;
+        height: auto; /* Allow it to adjust based on content */
+        border-radius: 10px; /* Slightly more rounded border */
+        border-width: 8px;
+    }
+
+    .Main_Page .Tools_Used ul {
+        gap: 8px; /* Reduced gap for smaller screens */
+    }
+
+    .Main_Page .Tools_Used img {
+        max-width: 80px; /* Smaller icons for mobile */
+    }
+
+    .Main_Page video {
+        width: 100%; /* Make video responsive */
+        max-width: 500px;
+        order: 2
+    }
+}
+
+/* Further Media Query for Extra Small Screens */
+@media only screen and (max-width: 600px) {
+    .Logo {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .Main_Page .Project_Description {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .Main_Page .Tools_Used {
+        width: 90%;
+        max-width: 350px;
+        border-width: 6px;
+    }
+
+    .Main_Page .Tools_Used img {
+        max-width: 60px; /* Even smaller icons */
+    }
+
+    .Main_Page video {
+        width: 100%;
+        max-width: 400px;
     }
 }
 /*
