@@ -178,7 +178,7 @@ a {
     justify-content: center;
 }
 
-.About_me h1 {
+.About_me .headerabout {
     margin-top: 100px;
 }
 
@@ -203,7 +203,7 @@ a {
 
 /*Skill page */
 
-.Skills h1 {
+.Skills .headerskill {
     justify-content: center;
     text-align: center;
     margin: auto;
@@ -234,7 +234,7 @@ a {
     text-align: center;
     color: white;
 }
-.Projects h1 {
+.Projects .headerproject {
     margin-top: 200px;
 }
 .Project_Flex{
