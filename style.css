@@ -26,9 +26,9 @@ a {
     transition: top 0.3s;
     top: -50px;
     position: fixed;
-    background-color:  #99AAB5;
+    background-color:  #ffffff;
     display: inline-block;
-    color: black;
+    color: #4e4f50;
     font-style: arial sans-serif;
     border: 2px solid #2C2F33;
     border-radius: 5px; 
@@ -57,7 +57,7 @@ a {
     font-size: 15px;
     float: left;
     margin: 10px;
-    color: white;
+    color: #4e4f50;
 }
 
 /* unordered list for the navigation bar */
@@ -75,7 +75,7 @@ a {
     display: block;
     padding: 10px 16px;
     text-decoration: none; 
-    background-color: #d427f7; 
+    background-color: #4e4f50; 
     color: white; /* Button text color */
     border: 2px solid #2C2F33; /* Border for the button */
     border-radius: 5px; /* Rounded corners */
@@ -87,7 +87,7 @@ a {
 
 .portfolio-nav a:hover
 {
-    background-color:#e69bf5;
+    background-color:#7a7a7a;
 }
 
 /*HomePage, the first thing you see when looking at the website */
@@ -114,8 +114,8 @@ a {
     float:center; 
     padding: 20px 26px;
     text-decoration: none; 
-    background-color: #d427f7; 
-    color: white; /* Button text color */
+    background-color: white; 
+    color: #4e4f50; /* Button text color */
     border: 2px solid white; /* Border for the button */
     border-radius: 5px; /* Rounded corners */
     font-size: 1rem;
@@ -125,7 +125,7 @@ a {
 
 .HomePage button:hover
 {
-    background-color:#e69bf5;
+    background-color:#d6ffff;
     transform:translateY(-10px)
 
 }
@@ -152,7 +152,7 @@ a {
 
 .HomePage .Logos img:hover
 {
-    background-color:#e69bf5;
+    background-color:#d6ffff;
     transform:translateY(-5px)
 }
 
@@ -210,20 +210,20 @@ a {
     padding: 10px;
     align-items: center;
     color: white;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
-.Skill_Flex{
-    display: flex; 
-    margin: 5px auto;
+.Skill_Flex {
+    display: flex;
+    margin: 0px auto;
     align-items: flex-start;
-    flex-wrap:wrap; 
+    flex-wrap: wrap;
     position: relative;
     justify-content: space-evenly;
     max-width: 1200px;
-    max-height: auto;
     color: white;
-    gap: 20px;
+    gap: 15px; /* increased gap for better spacing */
+    margin-bottom: 30px; /* increased margin to separate from other content */
 }
 /*Skills */
 
@@ -246,25 +246,29 @@ a {
     justify-content: space-around;
 }
 
-.Card_Component{
+.Card_Component {
     display: block;
-    margin: 100px auto;
-    position: relative; 
+    margin: 20px auto; /* reduced margin to fit in one page */
+    position: relative;
     padding: 20px;
     border-radius: 5px;
-    width: 200px;
+    width: 180px; /* smaller width for more cards per row */
     height: auto;
-    background-color: #d427f7;
-    border-width: 30px;
-    border-color:solid white;
+    background-color: white;
+    border-width: 15px; /* reduced border width */
+    border-color: solid white;
     text-align: center;
-    color: black;
-    box-shadow: 5px 5px 20px black;
-    color: white;
-
+    color: #4e4f50;
+    box-shadow: 5px 5px 20px #000000;
+    transition: transform 0.3s ease; /* add hover effect */
 }
-.Card_Component img{
-    width: 100px;
+
+.Card_Component:hover {
+    transform: scale(1.05); /* slightly enlarge on hover */
+}
+
+.Card_Component img {
+    width: 80px; /* reduced image size */
     height: auto;
     border-radius: 5px;
 }
@@ -277,18 +281,18 @@ a {
     border-radius: 5px;
     max-width: 500px;
     max-height: 500px;
-    background-color: #d427f7;
+    background-color: white;
     border-width: 30px;
     border-color:solid white;
     text-align: center;
-    color: white;
-    box-shadow: 5px 5px 20px black;
+    color: #4e4f50;
+    box-shadow: 5px 5px 20px #000000;
     transition: all 0.3s;
 
 }
 
 .Card_Component2:hover{
-    background-color:#e69bf5;
+    background-color:#d6ffff;
     transform:translateY(-10px)
 }
 .Card_Component2 img{
@@ -300,7 +304,7 @@ a {
 .Card_Component2 p {
     font-size: 16px;
     text-align: center;
-    color:white;
+    color:#4e4f50;
 }
 
 /*Image for the cards */
@@ -343,7 +347,7 @@ a {
     border: none;
     outline: none; 
     padding-left: 25px;
-    color: black;
+    color: #4e4f50;
     border-radius: 50px;
     position:relative;
 }
@@ -386,7 +390,7 @@ a {
     align-items: center;
     padding: 15px 30px;
     font-size: 16px;
-    background-color: #d427f7;
+    background-color: #ffffff;
     gap: 10px;
     border: none;
     border-radius: 50px;
@@ -394,11 +398,11 @@ a {
     text-align: center;
     justify-content: center;
     transition: all 0.3s;
-    color: white; 
+    color: black; 
 }
 
 .contact-left button:hover{
-    background-color:#e69bf5;
+    background-color:#d6ffff;
     transform:translateY(-10px)
 }
 
@@ -406,8 +410,8 @@ footer {
     align-items: center;
     text-align: center;
     padding: 5px;
-    background-color: #99AAB5;
-    color: white;
+    background-color: white;
+    color: #4e4f50;
   }
 
 footer a {
@@ -452,9 +456,16 @@ footer a {
         margin: 10px auto; 
 
     }
-
     .Skill_Flex {
-        display: flex
+        justify-content: center;
+        gap: 10px; 
+    }
+    .Card_Component {
+        width: 150px;
+        padding: 15px;
+    }
+    .Card_Component img {
+        width: 70px;
     }
 
     .Contact h1 {
@@ -481,7 +492,7 @@ footer a {
         padding: 20px 50px;
         border: none;
         outline: none; 
-        color: black;
+        color: #4e4f50;
         border-radius: 50px;
         order: 2;
         margin-bottom: 10px;
@@ -552,4 +563,15 @@ footer a {
     
     }
 
+    .Skill_Flex {
+        justify-content: center;
+        gap: 10px;
+    }
+    .Card_Component {
+        width: 120px; /* even smaller cards */
+        padding: 10px;
+    }
+    .Card_Component img {
+        width: 60px; /* further reduced image size */
+    }
 }
