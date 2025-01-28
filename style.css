@@ -203,7 +203,7 @@ a {
 
 /*Skill page */
 
-.Skills h2 {
+.Skills h1 {
     justify-content: center;
     text-align: center;
     margin: auto;
@@ -234,18 +234,16 @@ a {
     text-align: center;
     color: white;
 }
-.Projects h2 {
+.Projects h1 {
     margin-top: 200px;
 }
 .Project_Flex{
     display: flex; 
-    gap: 20px;
+    margin: 5px auto;
     align-items: flex-end;
     flex-wrap:wrap; 
     position: relative;
-    justify-content: space-evenly;
-    padding: 20px;
-    box-sizing: border-box;
+    justify-content: space-around;
 }
 
 .Card_Component {
@@ -260,7 +258,7 @@ a {
     border-width: 15px; /* reduced border width */
     border-color: solid white;
     text-align: center;
-    color: black;
+    color: #4e4f50;
     box-shadow: 5px 5px 20px #000000;
     transition: transform 0.3s ease; /* add hover effect */
 }
@@ -293,12 +291,6 @@ a {
 
 }
 
-.Card_Component2 h2, .Card_Component2 p {
-    margin: 10px 0;
-    font-size: 18px; 
-}
-
-
 .Card_Component2:hover{
     background-color:#d6ffff;
     transform:translateY(-10px)
@@ -307,7 +299,6 @@ a {
     width: 300px;
     height: auto;
     border-radius: 5px;
-    margin-bottom: 20px;
 }
 
 .Card_Component2 p {
@@ -323,7 +314,7 @@ a {
 
 /*Contact */
 
-.Contact h2 {
+.Contact h1 {
     margin-top: 100px;
     text-align: center;
     color: white;
@@ -477,7 +468,7 @@ footer a {
         width: 70px;
     }
 
-    .Contact h2 {
+    .Contact h1 {
         margin-top: 200px;
         text-align: center;
         color: white;
@@ -572,7 +563,7 @@ footer a {
     
     }
 
-    .Skill_Flex {
+        .Skill_Flex {
         justify-content: center;
         gap: 10px;
     }
