@@ -239,11 +239,13 @@ a {
 }
 .Project_Flex{
     display: flex; 
-    margin: 5px auto;
+    gap: 20px;
     align-items: flex-end;
     flex-wrap:wrap; 
     position: relative;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .Card_Component {
@@ -258,7 +260,7 @@ a {
     border-width: 15px; /* reduced border width */
     border-color: solid white;
     text-align: center;
-    color: #4e4f50;
+    color: black;
     box-shadow: 5px 5px 20px #000000;
     transition: transform 0.3s ease; /* add hover effect */
 }
