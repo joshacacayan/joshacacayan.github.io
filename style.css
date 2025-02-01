@@ -446,14 +446,6 @@ footer a {
 /*Attempt to change it for mobile, it still does not work */
 @media only screen and (max-width: 800px) {
 
-    .portfolio-nav{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        align-items: center;
-        flex-direction: column;
-    }
-    
     .About_me {
         display: flex;
         padding: 10px;
@@ -570,13 +562,6 @@ footer a {
 
 @media only screen and (max-width: 500px) {
 
-    .portfolio-nav{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        align-items: center;
-        flex-direction: column;
-    }
     .About_me {
         padding: 10px;
         text-align: center;
