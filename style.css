@@ -103,6 +103,8 @@ a {
     align-items: center;
     text-align: center;
     color: white;
+    padding-top: 120px;
+    /* Adjust this to prevent overlap */
 }
 
 .HomePage img {
@@ -170,6 +172,7 @@ a {
 
 /*About me page */
 .About_me {
+    padding-top: 120px;
     display: flex;
     margin-bottom: 50px;
     margin: 20px auto;
@@ -446,7 +449,66 @@ footer a {
 /*Attempt to change it for mobile, it still does not work */
 @media only screen and (max-width: 800px) {
 
+    /* Add offset to each section */
+    #home,
+    #aboutme,
+    #skills,
+    #projects,
+    #contact {
+        position: relative;
+    }
+
+    /* Create a 60px space for the navbar */
+    #home::before,
+    #aboutme::before,
+    #skills::before,
+    #projects::before,
+    #contact::before {
+        content: "";
+        display: block;
+        height: 300px;
+        /* Same height as your navbar */
+        margin-top: -80px;
+        /* Offset the content to prevent overlap */
+    }
+
+    .HomePage {
+        margin-top: 300px;
+        padding-top: 40px;
+    }
+
+    .HomePage img {
+        margin-top: 50px;
+    }
+
+    .portfolio-nav ul {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .portfolio-nav li {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .portfolio-nav a {
+        display: inline-block;
+        padding: 4px 10px;
+        /* Reduce padding */
+        font-size: 14px;
+        /* Reduce font size */
+        border-radius: 4px;
+        /* Adjust rounded corners */
+        width: 80%;
+        /* Make buttons smaller */
+    }
+
     .About_me {
+        margin-top: 300px;
+        padding-top: 40px;
         display: flex;
         padding: 10px;
         width: 90%;
@@ -562,8 +624,20 @@ footer a {
 
 @media only screen and (max-width: 500px) {
 
+    .portfolio-nav a {
+        padding: 5px 10px;
+        /* Further reduce padding */
+        font-size: 12px;
+        /* Smaller font size */
+        width: 70%;
+        /* Make buttons even smaller */
+    }
+
+
     .About_me {
-        padding: 10px;
+        margin-top: 180px;
+        /* Smaller value for mobile screens */
+        padding-top: 30px;
         text-align: center;
         align-items: center;
         flex-direction: column;
@@ -603,10 +677,7 @@ footer a {
     .Skill_Flex {
         justify-content: center;
         gap: 10px;
-        font-size: 15px;
     }
-
-    
 
     .Card_Component {
         width: 120px;
