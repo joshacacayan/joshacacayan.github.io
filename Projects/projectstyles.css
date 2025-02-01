@@ -6,31 +6,33 @@ body {
 
 div {
     display: block;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     padding: 60px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
 }
 
+/*Plant Pro */
 .Main_Page {
     display: flex;
-    flex-direction:row;
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     width: 100%;
     margin: 10px 0;
     gap: 10px;
 
 }
+
 .Logo {
     display: flex;
     max-width: 500px;
     width: 100%;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
@@ -38,7 +40,7 @@ a {
 .Main_Page .Project_Description {
     display: flex;
     align-items: center;
-    margin: 0 auto; 
+    margin: 0 auto;
     max-width: 500px;
     padding: 10px;
     box-shadow: 5px 5px 20px black;
@@ -49,12 +51,12 @@ a {
 }
 
 .Main_Page .Project_Description p {
-    max-width:450px;
+    max-width: 450px;
     max-height: auto;
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
-    color: lightgreen;
+    color: white;
     text-align: center;
     font-size: 18px;
     box-sizing: border-box;
@@ -63,7 +65,7 @@ a {
 
 .Main_Page .Tools_Used {
     margin: 0px auto;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
@@ -75,12 +77,13 @@ a {
     background-color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 10px solid;
-    border-color:rgb(83, 245, 83);
+    border-color: rgb(83, 245, 83);
     border-radius: 50%;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 
 }
+
 .Main_Page .Tools_Used ul {
     margin: 0;
     padding: 0;
@@ -93,29 +96,38 @@ a {
     max-width: 100px;
     height: auto;
 }
-.Main_Page .Tools_Used  li {
+
+.Main_Page .Tools_Used li {
     list-style-type: none;
-    margin: 0; /* Removes margin */
-    padding: 0; /* Removes padding */
-    flex-shrink: 0; /* Prevents shrinking */
-    width: auto; /* Adjust width as per content */
+    margin: 0;
+    /* Removes margin */
+    padding: 0;
+    /* Removes padding */
+    flex-shrink: 0;
+    /* Prevents shrinking */
+    width: auto;
+    /* Adjust width as per content */
 }
 
 .Main_Page video {
     max-width: 800px;
     max-height: auto;
 }
+
 /* Media Query for Smaller Screens */
 @media only screen and (max-width: 1324px) {
     .Main_Page {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column;
+        /* Stack items vertically */
         align-items: center;
         justify-content: center;
-        gap: 20px; /* Increase gap for spacing */
+        gap: 20px;
+        /* Increase gap for spacing */
     }
 
     .Logo {
-        width: 80%; /* Make logo more responsive */
+        width: 80%;
+        /* Make logo more responsive */
         max-width: 300px;
         order: 1;
     }
@@ -124,28 +136,34 @@ a {
         width: 90%;
         max-width: 450px;
         padding: 15px;
-        font-size: 16px; /* Make text a bit smaller for small screens */
+        font-size: 16px;
+        /* Make text a bit smaller for small screens */
         order: 4;
     }
 
     .Main_Page .Tools_Used {
         width: 80%;
         max-width: 400px;
-        height: auto; /* Allow it to adjust based on content */
-        border-radius: 10px; /* Slightly more rounded border */
+        height: auto;
+        /* Allow it to adjust based on content */
+        border-radius: 10px;
+        /* Slightly more rounded border */
         border-width: 8px;
     }
 
     .Main_Page .Tools_Used ul {
-        gap: 8px; /* Reduced gap for smaller screens */
+        gap: 8px;
+        /* Reduced gap for smaller screens */
     }
 
     .Main_Page .Tools_Used img {
-        max-width: 80px; /* Smaller icons for mobile */
+        max-width: 80px;
+        /* Smaller icons for mobile */
     }
 
     .Main_Page video {
-        width: 100%; /* Make video responsive */
+        width: 100%;
+        /* Make video responsive */
         max-width: 500px;
         order: 2
     }
@@ -170,7 +188,8 @@ a {
     }
 
     .Main_Page .Tools_Used img {
-        max-width: 60px; /* Even smaller icons */
+        max-width: 60px;
+        /* Even smaller icons */
     }
 
     .Main_Page video {
@@ -178,37 +197,542 @@ a {
         max-width: 400px;
     }
 }
+
 /*Chat App */
 
-.Chat_App_Main_Page{
+.Chat_App_Main_Page {
     display: flex;
     align-items: center;
     margin: 0 auto;
     justify-content: center;
     color: white;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
-.Chat_App_Main_Page img{
+.Chat_App_Main_Page img {
     max-width: 1500px;
     height: auto;
     border-radius: 10px;
     justify-content: center
 }
 
-.Chat_App_Main_Page p{
+.Chat_App_Main_Page p {
     width: 1500px;
     font-size: 18px;
     height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.Chat_App_Main_Page .Python_Tool {
+    max-width: 100px;
+    height: auto;
+    margin: 10px 0;
 }
 
 @media only screen and (max-width: 1324px) {
-    .Chat_App_Main_Page img{
+    .Chat_App_Main_Page img {
         width: 90%;
-        height: auto; 
+        height: auto;
     }
-    .Chat_App_Main_Page p{
+
+    .Chat_App_Main_Page p {
         width: 80%;
         height: auto;
+    }
+}
+
+
+.Video_Game_Pattern_Page {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.Video_Game_Pattern_Page .Tools_Used {
+    background-color: #333;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.Video_Game_Pattern_Page h2 {
+    color: #FFD700;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.Video_Game_Pattern_Page .Tools_Used ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Video_Game_Pattern_Page .Tools_Used img {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 10px;
+}
+
+.Video_Game_Pattern_Page .Tools_Used li {
+    list-style-type: none;
+    margin: 0;
+    /* Removes margin */
+    padding: 0;
+    /* Removes padding */
+    flex-shrink: 0;
+    /* Prevents shrinking */
+    width: auto;
+    /* Adjust width as per content */
+}
+
+.Video_Game_Pattern_Page p {
+    width: 700px;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Video_Game_Pattern_Page .ScreenShots_Patterns {
+    background-color: #333;
+    width: 100%;
+    max-width: 2000px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.Video_Game_Pattern_Page .ScreenShots_Patterns ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Video_Game_Pattern_Page .ScreenShots_Patterns li {
+    list-style-type: none;
+    margin: 0;
+    /* Removes margin */
+    padding: 0;
+    /* Removes padding */
+    flex-shrink: 0;
+    /* Prevents shrinking */
+    width: auto;
+    /* Adjust width as per content */
+}
+
+.Video_Game_Pattern_Page img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+.Stuck_At_Main_Page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Changed to column to stack content vertically */
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Stuck_At_Main_Page .Tools_Used {
+    background-color: #FFB514;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.Stuck_At_Main_Page h2 {
+    color: black;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.Stuck_At_Main_Page .Tools_Used ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Stuck_At_Main_Page .Tools_Used img {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 10px;
+}
+
+.Stuck_At_Main_Page .Tools_Used li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    width: auto;
+}
+
+.Stuck_At_Main_Page p {
+    width: 100%;
+    max-width: 700px;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+
+.Stuck_At_Main_Page video {
+    max-width: 100%;
+    /* Prevents the video from exceeding the container width */
+    height: auto;
+    /* Maintains aspect ratio */
+    display: block;
+    margin-top: 20px;
+    /* Adds space between the paragraph and video */
+}
+
+.Dean_GullBall_Project_Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Changed to column to stack content vertically */
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Dean_GullBall_Project_Div .Tools_Used {
+    background-color: plum;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.Dean_GullBall_Project_Div h2 {
+    color: black;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.Dean_GullBall_Project_Div .Tools_Used ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Dean_GullBall_Project_Div .Tools_Used img {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 10px;
+}
+
+.Dean_GullBall_Project_Div .Tools_Used li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    width: auto;
+}
+
+.Dean_GullBall_Project_Div p {
+    width: 100%;
+    max-width: 700px;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+
+.Dean_GullBall_Project_Div .ScreenShots_Patterns {
+    background-color: #333;
+    width: 100%;
+    max-width: 2000px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid plum;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.Dean_GullBall_Project_Div  .ScreenShots_Patterns ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Dean_GullBall_Project_Div  .ScreenShots_Patterns li {
+    list-style-type: none;
+    margin: 0;
+    /* Removes margin */
+    padding: 0;
+    /* Removes padding */
+    flex-shrink: 0;
+    /* Prevents shrinking */
+    width: auto;
+    /* Adjust width as per content */
+}
+
+.Dean_GullBall_Project_Div  img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+/*Plant Pro */
+.Music_And_Mental_Health {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+    gap: 10px;
+
+}
+
+.Music_And_Mental_Health .Logo {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Music_And_Mental_Health .Project_Description {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+    justify-content: space-around;
+    background-color: #333;
+    border-radius: 5px;
+    border: 5px solid lightskyblue;
+}
+
+.Music_And_Mental_Health .Project_Description p {
+    max-width: 500px;
+    max-height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+.Music_And_Mental_Health .Tools_Used {
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: auto;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 10px solid;
+    border-color: lightskyblue;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Music_And_Mental_Health .Tools_Used ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Music_And_Mental_Health .Tools_Used img {
+    max-width: 100px;
+    height: auto;
+}
+
+.Music_And_Mental_Health .Tools_Used li {
+    list-style-type: none;
+    margin: 0;
+    /* Removes margin */
+    padding: 0;
+    /* Removes padding */
+    flex-shrink: 0;
+    /* Prevents shrinking */
+    width: auto;
+    /* Adjust width as per content */
+}
+
+
+.ScreenShots_Patterns2 {
+    background-color: #333;
+    width: 100%;
+    max-width: 2000px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid lightskyblue;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+ .ScreenShots_Patterns2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ScreenShots_Patterns2 li {
+    list-style-type: none;
+    margin: 0;
+    /* Removes margin */
+    padding: 0;
+    /* Removes padding */
+    flex-shrink: 0;
+    /* Prevents shrinking */
+    width: auto;
+    /* Adjust width as per content */
+}
+
+.Music_And_Mental_Health img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+
+.ScreenShots_Patterns2 img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+
+/* Media Query for Smaller Screens */
+@media only screen and (max-width: 1324px) {
+    .Music_And_Mental_Health {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        /* Increase gap for spacing */
+    }
+
+    .Music_And_Mental_Health .Logo {
+        width: 80%;
+        /* Make logo more responsive */
+        max-width: 300px;
+        order: 1;
+    }
+
+    .Music_And_Mental_Health .Project_Description {
+        width: 90%;
+        max-width: 450px;
+        padding: 15px;
+        font-size: 16px;
+        /* Make text a bit smaller for small screens */
+        order: 4;
+    }
+
+    .Music_And_Mental_Health .Tools_Used {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+        /* Allow it to adjust based on content */
+        border-radius: 10px;
+        /* Slightly more rounded border */
+        border-width: 8px;
+    }
+
+    .Music_And_Mental_Health .Tools_Used ul {
+        gap: 8px;
+        /* Reduced gap for smaller screens */
+    }
+
+    .Music_And_Mental_Health .Tools_Used img {
+        max-width: 80px;
+        /* Smaller icons for mobile */
+    }
+}
+
+/* Further Media Query for Extra Small Screens */
+@media only screen and (max-width: 600px) {
+    .Music_And_Mental_Health .Logo {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .Music_And_Mental_Health .Project_Description {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .Music_And_Mental_Health .Tools_Used {
+        width: 90%;
+        max-width: 350px;
+        border-width: 6px;
+    }
+
+    .Music_And_Mental_Health .Tools_Used img {
+        max-width: 60px;
+        /* Even smaller icons */
     }
 }
