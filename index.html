@@ -14,7 +14,7 @@
     <nav class="portfolio-nav">
         <img src='./assetImages/logo.svg' alt="image for favicon" />
         <h3>Josh Cacayan</h3>
-        <ul>
+        <ul aria-label="navigation items">
             <li><a href="#contact" aria-label="Contact_Page">Contact Me</a></li>
             <li><a href="#projects" aria-label="Project_Page">Projects</a></li>
             <li><a href="#skills" aria-label="Skill_Page">Skills</a></li>
@@ -26,12 +26,16 @@
         <img src="./assetImages/Josh_Cacayan.png" alt="Josh Cacayan's Picture" />
         <h1>Josh Cacayan</h1>
         <h2>Software Development @ KU | Data Science</h2>
-        <h3>Computer Science major with experience in front-end  and back-end development as well as database management and data analytics.
+        <h3>Computer Science major with experience in front-end and back-end development as well as database management
+            and data analytics.
         </h3>
         <div class="Logos">
-            <a href="https://github.com/joshacacayan" aria-label="Github Page"><img src="./assetImages/github.jpg" alt="Github page"></a>
-            <a href="https://www.facebook.com/josh.cacayan.1/" aria-label="Facebook Page"><img src="./assetImages/facebook.jpg" alt="Facebook page"></a>
-            <a href=" https://www.linkedin.com/in/josh-cacayan/" aria-label="Linkedin Page"><img src="./assetImages/linkedin.jpg" alt="Linkedin page"></a>
+            <a href="https://github.com/joshacacayan" aria-label="Github Page"><img src="./assetImages/github.jpg"
+                    alt="Github page"></a>
+            <a href="https://www.facebook.com/josh.cacayan.1/" aria-label="Facebook Page"><img
+                    src="./assetImages/facebook.jpg" alt="Facebook page"></a>
+            <a href=" https://www.linkedin.com/in/josh-cacayan/" aria-label="Linkedin Page"><img
+                    src="./assetImages/linkedin.jpg" alt="Linkedin page"></a>
         </div>
         <br />
         <div class="Resume"></div>
@@ -96,11 +100,11 @@
                 <h2>CSS</h2>
             </div>
             <div class="Card_Component">
-                <img src="./assetImages/Skill_Images/PHPImage.png" alt="Php Logo"  />
+                <img src="./assetImages/Skill_Images/PHPImage.png" alt="Php Logo" />
                 <h2>Php</h2>
             </div>
             <div class="Card_Component">
-                <img src="./assetImages/Skill_Images/PostgresqlImage.png" alt="PostgreSql Logo"  />
+                <img src="./assetImages/Skill_Images/PostgresqlImage.png" alt="PostgreSql Logo" />
                 <h2>PostgreSql</h2>
             </div>
             <div class="Card_Component">
@@ -136,40 +140,43 @@
                 </div>
             </a>
             <a href="Projects/ChatApplication.html" aria-label="Chat_Project">
-            <div class="Card_Component2">
+                <div class="Card_Component2">
                     <img src="./assetImages/projectImages/ChatRoom/ClientProgram.png" alt="ChatRoom_Project" />
                     <h2>Chat Application</h2>
                     <p> A program that simulates a private chat room using sockets.</p>
                     <p> Skills Developed: Socket based Programming, C.</p>
-            </div>
+                </div>
             </a>
             <a href="Projects/MusicAndMental.html" aria-label="Music_Mental_Project">
                 <div class="Card_Component2">
-                    <img src="./assetImages/projectImages/Music_And_Mental/Music_Mental_Healt.png"  alt="Music_Mental_Analysis" />
+                    <img src="./assetImages/projectImages/Music_And_Mental/Music_Mental_Healt.png"
+                        alt="Music_Mental_Analysis" />
                     <h2>Music And Mental Health</h2>
                     <p>What listening factors predict ones perception of music improving mental health?</p>
                     <p>Skills Developed: Weka, Data Analysis, Machine Learning Algorithms</p>
                 </div>
             </a>
             <a href="Projects/DeanGullBall.html" aria-label="Dean_Gullball_Project">
-            <div class="Card_Component2">
+                <div class="Card_Component2">
                     <img src="./assetImages/projectImages/DeanGullBall/DeanGULLBERRY.png" alt="Dean_Gull_Project" />
                     <h2>Dean Gullball</h2>
                     <p>Simple 3d Roll-a-Ball Game that contains hard levels</p>
                     <p>Skills Developed: C#, Unity, Team</p>
-            </div>
+                </div>
             </a>
             <a href="Projects/StuckAtMain.html" aria-label="Stuck_AtMain_Game_Project">
-            <div class="Card_Component2">
-                    <img src="./assetImages/projectImages/Stuck_At_Main/StuckAtMain.png" alt="Stuck_At_Old_Main_Picture"  />
+                <div class="Card_Component2">
+                    <img src="./assetImages/projectImages/Stuck_At_Main/StuckAtMain.png"
+                        alt="Stuck_At_Old_Main_Picture" />
                     <h2>Stuck At Old Main</h2>
                     <p>Hidden object 2d game.</p>
                     <p>Skills Developed: Gamemaker studio, GML</p>
-            </div>
+                </div>
             </a>
             <a href="Projects/VideoGamePatterns.html" aria-label="Video Game Pattern Project">
                 <div class="Card_Component2">
-                    <img src="./assetImages/projectImages/Video_Game_Patterns/GameController.png" alt="Picture of Game Controller" />
+                    <img src="./assetImages/projectImages/Video_Game_Patterns/GameController.png"
+                        alt="Picture of Game Controller" />
                     <h2>Video Game Patterns</h2>
                     <p>Studies the correlations between the genre of video games people play and other factors such as
                         country
@@ -187,9 +194,19 @@
                     <h2>Get in touch</h2>
                 </div>
                 <input type="hidden" name="access_key" value="c47626ad-df12-4340-979d-8eedaddf1e7b">
-                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required aria-label="Name Input" aria-required="true">
-                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required aria-label="Email Input" aria-required="true">
-                <textarea name="message" placeholder="Your Message" class="contact-inputs" required aria-label="Message Input" aria-required="true"></textarea>
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required
+                    aria-label="Name Input" aria-required="true">
+                <label for="name">
+                    First Name
+                </label>
+                <input id="name" type="text" placeholder="Your Name" autocomplete="given-name">
+                <label for="email">
+                    Email
+                </label>
+                <input id="email" type="email" name="email" placeholder="Your Email" class="contact-inputs" required
+                    aria-label="Email Input" aria-required="true" autocomplete="given-email">
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required
+                    aria-label="Message Input" aria-required="true"></textarea>
                 <button type="submit">Submit</button>
             </form>
 
