@@ -221,7 +221,7 @@ button {
     flex-wrap: wrap;
 }
 
-.Chat_App_Main_Page img {
+.Chat_App_Main_Page .Chat_Image {
     max-width: 1500px;
     height: auto;
     border-radius: 10px;
