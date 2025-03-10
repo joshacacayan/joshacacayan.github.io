@@ -25,6 +25,21 @@ div {
 
 }
 
+button {
+    max-width: 200px;
+    max-height: auto;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-width: 10px;
+    border-color:white;
+    display:block;
+
+    
+}
+
 .Logo {
     display: flex;
     max-width: 500px;
