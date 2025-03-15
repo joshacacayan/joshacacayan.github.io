@@ -489,7 +489,7 @@ footer a {
 
     .portfolio-nav ul {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 0;
         gap: 10px;
         width: 100%
@@ -699,11 +699,12 @@ footer a {
     .Project_Flex {
         display: flex;
         margin: 5px auto;
-        align-items: flex-end;
+        align-items: center;
         font-size: 12px;
         flex-wrap: wrap;
         position: relative;
         justify-content: space-around;
+
     }
 
     .Card_Component {
