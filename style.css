@@ -561,6 +561,7 @@ footer a {
     .Card_Component {
         width: 150px;
         padding: 15px;
+        font-size: 12px;
     }
 
     .Card_Component img {
@@ -687,7 +688,7 @@ footer a {
         width: 120px;
         /* even smaller cards */
         padding: 10px;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .Card_Component img {
