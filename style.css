@@ -574,10 +574,11 @@ footer a {
     .Project_Flex {
         display: flex;
         margin: 5px auto;
-        align-items: flex-end;
+        align-items: center;
         flex-wrap: wrap;
         position: relative;
         justify-content: space-around;
+        font-size: 11px;
     }
 
     .Contact h1 {
@@ -694,16 +695,19 @@ footer a {
     .Skill_Flex {
         justify-content: center;
         gap: 10px;
+        font-size: 11px;
     }
 
     .Project_Flex {
         display: flex;
         margin: 5px auto;
         align-items: center;
-        font-size: 12px;
+        font-size: 11px;
         flex-wrap: wrap;
         position: relative;
         justify-content: space-around;
+        text-align: center;
+
 
     }
 
@@ -711,7 +715,7 @@ footer a {
         width: 120px;
         /* even smaller cards */
         padding: 10px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .Card_Component img {
