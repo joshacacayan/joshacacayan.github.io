@@ -90,6 +90,9 @@ a {
     /* Center the text */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+.portfolio_nav img {
+    opacity:0; 
+}
 
 /*Button */
 
@@ -664,6 +667,9 @@ footer a {
         /* Make buttons even smaller */
     }
 
+    .portfolio_nav img {
+    opacity:0; 
+}
 
     .About_me {
         margin-top: 180px;
