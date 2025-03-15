@@ -526,6 +526,9 @@ footer a {
         /* Make buttons smaller */
     }
 
+     .portfolio_nav img {
+    opacity:0; 
+}
     .About_me {
         margin-top: 300px;
         padding-top: 40px;
