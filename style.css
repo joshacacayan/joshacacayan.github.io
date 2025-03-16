@@ -598,6 +598,18 @@ footer a {
         font-size: 11px;
     }
 
+.Card_Component2 {
+    max-width: 500px;
+    background-color: white;
+    border-width: 30px;
+    border-color: solid white;
+    text-align: center;
+    color: #4e4f50;
+    box-shadow: 5px 5px 20px #000000;
+    transition: all 0.3s;
+
+}
+
     .Contact h1 {
         margin-top: 200px;
         text-align: center;
