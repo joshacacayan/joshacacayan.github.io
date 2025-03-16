@@ -526,9 +526,9 @@ footer a {
         /* Make buttons smaller */
     }
 
-     .portfolio_nav img {
-    opacity:0; 
-}
+     .portfolio-nav img {
+        opacity:0; 
+    }   
     .About_me {
         margin-top: 300px;
         padding-top: 40px;
@@ -670,10 +670,9 @@ footer a {
         /* Make buttons even smaller */
     }
 
-    .portfolio_nav img {
-    opacity:0; 
-}
-
+    .portfolio-nav img {
+        opacity:0; 
+    }   
     .About_me {
         margin-top: 180px;
         /* Smaller value for mobile screens */
