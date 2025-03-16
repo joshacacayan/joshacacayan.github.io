@@ -507,6 +507,7 @@ footer a {
         padding: 0;
         gap: 10px;
         width: 100%
+        align-items: center; 
     }
 
     .portfolio-nav li {
@@ -545,6 +546,7 @@ footer a {
     }
 
     .About_me .About_me_flex {
+        display:flex;
         flex-direction: column;
         padding: 20px;
         margin: 20px;
