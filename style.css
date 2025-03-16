@@ -108,7 +108,7 @@ a {
     margin-right: 0;
     align-items: center;
     text-align: center;
-    color: white;
+    color: white; 
     padding-top: 120px;
     /* Adjust this to prevent overlap */
 }
@@ -223,6 +223,7 @@ a {
     margin: 20px auto;
     font-size: 18px;
     line-height: 1.5;
+    opacity: 0
 }
 
 /*Skill page */
@@ -553,10 +554,8 @@ footer a {
     }
 
     .About_me .About_me_flex img {
-        max-width: 600px;
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
+        opacity: 0;
+
     }
 
     .About_me .About_me_flex,
@@ -566,6 +565,7 @@ footer a {
         font-size: 1rem;
         text-align: center;
         padding: 0 20px;
+        opacity: 1;
 
     }
 
@@ -689,15 +689,14 @@ footer a {
     }
 
     .About_me .About_me_flex img {
-        max-width: 500px;
-        height: auto;
-        width: 100%;
+        opacity: 0;
 
     }
 
     .About_me .About_me_flex p {
         font-size: 1rem;
         padding: 0 10px;
+        opacity: 1;
     }
 
     .Contact-flex {
