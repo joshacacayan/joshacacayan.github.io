@@ -594,6 +594,7 @@ footer a {
         gap: 10px;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         font-size: 11px;
     }
 
@@ -726,6 +727,7 @@ footer a {
     }
 
     .Card_Component {
+        display: block;
         width: 120px;
         /* even smaller cards */
         padding: 10px;
@@ -733,6 +735,7 @@ footer a {
     }
 
     .Card_Component img {
+        display: block;
         width: 60px;
         /* further reduced image size */
     }
