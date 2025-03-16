@@ -207,7 +207,7 @@ a {
 }
 
 .About_me img {
-    max-width: 1622px;
+    max-width: 1322px;
     height:auto;
     align-items: center;
     flex-direction: column;
@@ -223,7 +223,7 @@ a {
     margin: 20px auto;
     font-size: 18px;
     line-height: 1.5;
-    opacity: 0
+    display: none; 
 }
 
 /*Skill page */
@@ -554,7 +554,7 @@ footer a {
     }
 
     .About_me .About_me_flex img {
-        opacity: 0;
+        display: none; 
 
     }
 
@@ -565,7 +565,7 @@ footer a {
         font-size: 1rem;
         text-align: center;
         padding: 0 20px;
-        opacity: 1;
+        display:flex;
 
     }
 
@@ -689,14 +689,14 @@ footer a {
     }
 
     .About_me .About_me_flex img {
-        opacity: 0;
+        display:none
 
     }
 
     .About_me .About_me_flex p {
         font-size: 1rem;
         padding: 0 10px;
-        opacity: 1;
+        display: flex; 
     }
 
     .Contact-flex {
