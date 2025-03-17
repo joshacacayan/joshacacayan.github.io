@@ -207,7 +207,7 @@ a {
 }
 
 .About_me img {
-    max-width: 1322px;
+    max-width: 1622px;
     height:auto;
     align-items: center;
     flex-direction: column;
@@ -223,7 +223,7 @@ a {
     margin: 20px auto;
     font-size: 18px;
     line-height: 1.5;
-    display: none; 
+    opacity: 0
 }
 
 /*Skill page */
@@ -506,8 +506,7 @@ footer a {
         flex-direction: column;
         padding: 0;
         gap: 10px;
-        width: 100%;
-        align-items: center; 
+        width: 100%
     }
 
     .portfolio-nav li {
@@ -529,7 +528,7 @@ footer a {
     }
 
      .portfolio-nav img {
-        display:none; 
+        display: none; 
     }   
     .About_me {
         margin-top: 300px;
@@ -546,7 +545,6 @@ footer a {
     }
 
     .About_me .About_me_flex {
-        display:flex;
         flex-direction: column;
         padding: 20px;
         margin: 20px;
@@ -556,7 +554,7 @@ footer a {
     }
 
     .About_me .About_me_flex img {
-        display: none; 
+        display: none;
 
     }
 
@@ -564,10 +562,10 @@ footer a {
     p {
         width: 100%;
         height: auto;
-        font-size: 1rem;
+        font-size: 12px;
         text-align: center;
         padding: 0 20px;
-        display:flex;
+        display: flex;
 
     }
 
@@ -594,30 +592,8 @@ footer a {
         gap: 10px;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         font-size: 11px;
     }
-    .Card_Component2 {
-        width: 90%; 
-        max-width: 400px; 
-        padding: 15px;
-        font-size: 14px;
-        text-align: center;
-        margin: 20px auto; 
-    }
-
-    .Card_Component2 img {
-        width: 100%; 
-        max-width: 350px; 
-        height: auto; 
-        border-radius: 5px;
-    }
-
-    .Card_Component2 p {
-        font-size: 14px;
-        padding: 10px;
-    }
-}   
 
     .Contact h1 {
         margin-top: 200px;
@@ -679,26 +655,31 @@ footer a {
         padding: 50px 50px;
     }
 
+}
+
 @media only screen and (max-width: 500px) {
 
     .portfolio-nav a {
         padding: 5px 10px;
+        /* Further reduce padding */
         font-size: 12px;
+        /* Smaller font size */
         width: 70%;
+        /* Make buttons even smaller */
     }
 
     .portfolio-nav img {
-        opacity:0; 
+        display :none; 
     }   
     .About_me {
         margin-top: 180px;
+        /* Smaller value for mobile screens */
         padding-top: 30px;
         text-align: center;
         align-items: center;
         flex-direction: column;
         border-radius: 0;
         margin-bottom: 30px;
-        display:flex;
     }
 
     .About_me .About_me_flex {
@@ -708,14 +689,15 @@ footer a {
     }
 
     .About_me .About_me_flex img {
-        display:none
+        display: none;
 
     }
 
     .About_me .About_me_flex p {
-        font-size: 1rem;
+        font-size: 12px;
         padding: 0 10px;
-        display: flex; 
+        opacity: 1;
+        display: flex;
     }
 
     .Contact-flex {
@@ -743,7 +725,6 @@ footer a {
     }
 
     .Card_Component {
-        display: block;
         width: 120px;
         /* even smaller cards */
         padding: 10px;
@@ -751,7 +732,6 @@ footer a {
     }
 
     .Card_Component img {
-        display: block;
         width: 60px;
         /* further reduced image size */
     }
