@@ -679,17 +679,12 @@ footer a {
         padding: 50px 50px;
     }
 
-}
-
 @media only screen and (max-width: 500px) {
 
     .portfolio-nav a {
         padding: 5px 10px;
-        /* Further reduce padding */
         font-size: 12px;
-        /* Smaller font size */
         width: 70%;
-        /* Make buttons even smaller */
     }
 
     .portfolio-nav img {
@@ -697,7 +692,6 @@ footer a {
     }   
     .About_me {
         margin-top: 180px;
-        /* Smaller value for mobile screens */
         padding-top: 30px;
         text-align: center;
         align-items: center;
