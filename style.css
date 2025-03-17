@@ -597,18 +597,27 @@ footer a {
         align-items: center;
         font-size: 11px;
     }
+    .Card_Component2 {
+        width: 90%; 
+        max-width: 400px; 
+        padding: 15px;
+        font-size: 14px;
+        text-align: center;
+        margin: 20px auto; 
+    }
 
-.Card_Component2 {
-    max-width: 500px;
-    background-color: white;
-    border-width: 30px;
-    border-color: solid white;
-    text-align: center;
-    color: #4e4f50;
-    box-shadow: 5px 5px 20px #000000;
-    transition: all 0.3s;
+    .Card_Component2 img {
+        width: 100%; 
+        max-width: 350px; 
+        height: auto; 
+        border-radius: 5px;
+    }
 
-}
+    .Card_Component2 p {
+        font-size: 14px;
+        padding: 10px;
+    }
+}   
 
     .Contact h1 {
         margin-top: 200px;
