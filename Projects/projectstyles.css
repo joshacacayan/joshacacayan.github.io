@@ -229,7 +229,7 @@ button {
 }
 
 .Chat_App_Main_Page p {
-    width: 1500px;
+    max-width: 1500px;
     font-size: 18px;
     height: auto;
     align-items: center;
@@ -791,7 +791,7 @@ button {
     }
 
     .ScreenShots_Patterns2 img {
-        max-width: 600px;
+        max-width: 300px;
         height: auto;
         margin-bottom: 10px;
         border-radius: 15px;
@@ -799,11 +799,11 @@ button {
     }
     .Dean_GullBall_Project_Div .ScreenShots_Patterns img{
         width: 100%;
-        max-width: 600px;
+        max-width: 300px;
     }
     .Video_Game_Pattern_Page .ScreenShots_Patterns{
         width: 100%;
-        max-width: 600px;
+        max-width: 300px;
     }
 
 }
