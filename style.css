@@ -704,6 +704,7 @@ footer a {
         flex-direction: column;
         border-radius: 0;
         margin-bottom: 30px;
+        display:flex;
     }
 
     .About_me .About_me_flex {
