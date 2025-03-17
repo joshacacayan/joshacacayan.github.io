@@ -91,7 +91,7 @@ a {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 .portfolio_nav img {
-    opacity:0; 
+    display:none;
 }
 
 /*Button */
@@ -208,6 +208,7 @@ a {
 
 .About_me img {
     max-width: 1622px;
+    width: 100%;
     height:auto;
     align-items: center;
     flex-direction: column;
@@ -541,7 +542,7 @@ footer a {
         flex-direction: column;
         border-radius: 0;
         justify-content: center;
-        font-size: 1.2rem;
+        font-size: 12px;
     }
 
     .About_me .About_me_flex {
