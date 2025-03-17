@@ -805,5 +805,9 @@ button {
         width: 100%;
         max-width: 500px;
     }
+    .Video_Game_Pattern_Page p {
+        width: 100%;
+        font-size: 14px;
+    }
 
 }
