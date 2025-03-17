@@ -182,7 +182,7 @@ button {
 }
 
 /* Further Media Query for Extra Small Screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .Logo {
         width: 100%;
         max-width: 250px;
@@ -785,10 +785,10 @@ button {
 }
 
 /* Further Media Query for Extra Small Screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .Music_And_Mental_Health img {
         width: 100%;
-        max-width: 600px;
+        max-width: 500px;
     }
 
     .Music_And_Mental_Health .Project_Description {
