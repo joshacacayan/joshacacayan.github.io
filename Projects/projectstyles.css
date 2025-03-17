@@ -711,7 +711,7 @@ button {
 
 
 .ScreenShots_Patterns2 img {
-    width: 600px;
+    max-width: 600px;
     height: auto;
     margin-bottom: 10px;
     border-radius: 15px;
@@ -789,4 +789,21 @@ button {
         max-width: 60px;
         /* Even smaller icons */
     }
+
+    .ScreenShots_Patterns2 img {
+        max-width: 600px;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    
+    }
+    .Dean_GullBall_Project_Div .ScreenShots_Patterns img{
+        width: 100%;
+        max-width: 600px;
+    }
+    .Video_Game_Pattern_Page .ScreenShots_Patterns{
+        width: 100%;
+        max-width: 600px;
+    }
+
 }
