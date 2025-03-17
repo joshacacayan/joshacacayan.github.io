@@ -682,6 +682,7 @@ footer a {
         flex-direction: column;
         border-radius: 0;
         margin-bottom: 30px;
+        font-size: 13px;
     }
 
     .About_me .About_me_flex {
@@ -696,7 +697,7 @@ footer a {
     }
 
     .About_me .About_me_flex p {
-        font-size: 12px;
+        font-size: 13px;
         padding: 0 10px;
         display: flex;
     }
