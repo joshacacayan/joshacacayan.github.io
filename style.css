@@ -327,7 +327,7 @@ a {
 }
 
 .Card_Component2:hover {
-    background-color: #d6ffff;
+    background-color: #d6ffffa2;
     transform: translateY(-10px)
 }
 
