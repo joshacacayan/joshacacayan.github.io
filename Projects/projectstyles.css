@@ -147,6 +147,9 @@ button {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    border-radius:5px;
+    border-width: 10px;
+    border-color:lightblue;
 }
 
 .Main_PageVibelog .Project_DescriptionVibelog {
@@ -157,9 +160,9 @@ button {
     padding: 10px;
     box-shadow: 5px 5px 20px black;
     justify-content: space-around;
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
-    border: 5px solid lightgreen;
+    border: 5px solid lightblue;
 }
 
 .Main_PageVibelog .Project_DescriptionVibelog p {
@@ -168,7 +171,7 @@ button {
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 18px;
     box-sizing: border-box;
@@ -186,10 +189,10 @@ button {
     height: 100%;
     max-width: 500px;
     max-height: auto;
-    background-color: black;
+    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 10px solid;
-    border-color: rgb(83, 245, 83);
+    border-color: lightblue;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
