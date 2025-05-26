@@ -162,7 +162,7 @@ button {
     border: 5px solid lightgreen;
 }
 
-.Main_Page .Project_DescriptionVibelog p {
+.Main_PageVibelog .Project_DescriptionVibelog p {
     max-width: 450px;
     max-height: auto;
     margin: 0 auto;
@@ -175,7 +175,7 @@ button {
 
 }
 
-.Main_Page .Tools_UsedVibelog {
+.Main_PageVibelog .Tools_UsedVibelog {
     margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
@@ -196,7 +196,7 @@ button {
 
 }
 
-.Main_Page .Tools_UsedVibelog ul {
+.Main_PageVibelog .Tools_UsedVibelog ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -204,12 +204,12 @@ button {
     gap: 10px;
 }
 
-.Main_Page .Tools_UsedVibelog img {
+.Main_PageVibelog .Tools_UsedVibelog img {
     max-width: 100px;
     height: auto;
 }
 
-.Main_Page .Tools_UsedVibelog li {
+.Main_PageVibelog .Tools_UsedVibelog li {
     list-style-type: none;
     margin: 0;
     /* Removes margin */
