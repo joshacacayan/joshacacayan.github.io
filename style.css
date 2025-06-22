@@ -257,13 +257,13 @@ a {
 /*Cards for each programing language used */
 
 .Projects {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
     color: white;
 }
 
 .Projects .headerproject {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .Project_Flex {
