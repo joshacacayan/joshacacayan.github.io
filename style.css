@@ -180,7 +180,7 @@ a {
 .About_me {
     padding-top: 120px;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin: 20px auto;
     position: relative;
     padding: 50px 20px;
@@ -236,7 +236,7 @@ a {
     padding: 10px;
     align-items: center;
     color: white;
-    margin-top: 110px;
+    margin-top: 70px;
 }
 
 .Skill_Flex {
@@ -263,7 +263,7 @@ a {
 }
 
 .Projects .headerproject {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .Project_Flex {
