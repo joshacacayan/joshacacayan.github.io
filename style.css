@@ -249,7 +249,6 @@ a {
     max-width: 1200px;
     color: white;
     gap: 15px;
-    margin-bottom: 15px;
 }
 
 /*Skills */
@@ -263,7 +262,7 @@ a {
 }
 
 .Projects .headerproject {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .Project_Flex {
@@ -351,7 +350,7 @@ a {
 /*Contact */
 
 .Contact h2 {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     color: white;
     position: relative;
