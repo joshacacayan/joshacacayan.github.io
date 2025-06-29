@@ -664,8 +664,8 @@ footer a {
     .textarea {
         padding: 50px 50px;
     }
-    .project_description{
-        font-size: 12px;
+    .projectdescription{
+        display: none;
     }
 
 }
@@ -762,7 +762,7 @@ footer a {
         width: 50px;
         height: auto;
     }
-    .project_description{
+    .projectdescription{
         display:none;
     }
 }
