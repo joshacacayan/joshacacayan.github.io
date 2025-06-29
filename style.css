@@ -583,28 +583,39 @@ footer a {
     }
 
     .Card_Component {
-        width: 150px;
-        padding: 15px;
-        font-size: 12px;
+        width: 120px;
+        /* even smaller cards */
+        padding: 10px;
+        font-size: 11px;
     }
 
     .Card_Component img {
-        width: 70px;
+        width: 60px;
+        /* further reduced image size */
     }
 
     .Card_Component2 {
         display: block;
-        margin: 50px auto;
+        margin: 0 auto;
         position: relative;
-        padding: 100px;
-        max-width: 400px;
-        max-height: 400px;
+        padding: 20px;
+        max-width: 90vw;
+        max-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        min-height: auto;
+        
 
     }
 
     .Card_Component2 img {
-        width: 100px;
+        max-width: 300px;
+        max-height: 300px;
+        width: 100%;
         height: auto;
+    }
+    .projectdescription{
+        display:none;
     }
 
 
@@ -674,9 +685,6 @@ footer a {
 
     .textarea {
         padding: 50px 50px;
-    }
-    .projectdescription{
-        display: none;
     }
 
 }
