@@ -299,36 +299,47 @@ a {
 
 .Card_Component2 {
     display: block;
-    margin: 50px auto;
-    position: relative;
-    padding: 10px;
-    border-radius: 5px;
-    max-width: 500px;
-    max-height: 500px;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 400px;
+    min-height: 480px;
     background-color: #a5fafa;
-    border-width: 30px;
-    border-color: solid white;
     text-align: center;
     color: black;
-    box-shadow: 5px 5px 20px #000000;
-    transition: all 0.3s;
-
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border: 4px solid white;
 }
 
 .Card_Component2:hover {
     background-color: #55fdfd;
-    transform: translateY(-10px)
+    transform: translateY(-10px);
 }
 
 .Card_Component2 img {
-    width: 300px;
+    width: 120px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
-.Card_Component2 p {
-    font-size: 16px;
-    text-align: center;
+.Card_Component2 h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #2e2e2e;
+}
+
+.Card_Component2 .projectdescription {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.Card_Component2 .projectdescription p {
+    margin-bottom: 10px;
     color: #4e4f50;
 }
 
@@ -757,6 +768,7 @@ footer a {
         max-height: auto;
         flex-direction: column;
         justify-content: center;
+        min-height: auto;
         
 
     }
