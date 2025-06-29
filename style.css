@@ -30,7 +30,7 @@ a {
     display: flex;
     color: #4e4f50;
     font-style: arial sans-serif;
-    border: 2px solid #55fdfd;
+    border: 2px solid black;
     border-radius: 5px;
     margin: auto;
     padding: 35px;
@@ -91,7 +91,7 @@ a {
 /*Button */
 
 .portfolio-nav a:hover {
-    color: #55fdfd ;
+    color: #55fdfd;
 }
 
 /*HomePage, the first thing you see when looking at the website */
