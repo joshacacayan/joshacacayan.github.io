@@ -664,6 +664,9 @@ footer a {
     .textarea {
         padding: 50px 50px;
     }
+    .project_description{
+        font-size: 12px;
+    }
 
 }
 
@@ -758,5 +761,8 @@ footer a {
     .Card_Component2 img {
         width: 50px;
         height: auto;
+    }
+    .project_description{
+        display:none;
     }
 }
