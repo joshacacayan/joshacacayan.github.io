@@ -756,12 +756,15 @@ footer a {
         max-width: 90vw;
         max-height: auto;
         flex-direction: column;
-
+        justify-content: center;
+        
 
     }
 
     .Card_Component2 img {
-        width: 500px;
+        max-width: 300px;
+        max-height: 300px;
+        width: 100%;
         height: auto;
     }
     .projectdescription{
