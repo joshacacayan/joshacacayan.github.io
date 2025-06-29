@@ -86,8 +86,9 @@ a {
     text-align: center;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+
 .portfolio_nav img {
-    display:none;
+    display: none;
 }
 
 /*Button */
@@ -104,7 +105,7 @@ a {
     margin-right: 0;
     align-items: center;
     text-align: center;
-    color: white; 
+    color: white;
     padding-top: 120px;
 }
 
@@ -200,7 +201,7 @@ a {
 .About_me img {
     max-width: 1622px;
     width: 100%;
-    height:auto;
+    height: auto;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -304,7 +305,7 @@ a {
     border-radius: 5px;
     max-width: 600px;
     max-height: 600px;
-    background-color:#a5fafa;
+    background-color: #a5fafa;
     border-width: 30px;
     border-color: solid white;
     text-align: center;
@@ -522,9 +523,10 @@ footer a {
         /* Make buttons smaller */
     }
 
-     .portfolio-nav img {
-        display: none; 
-    }   
+    .portfolio-nav img {
+        display: none;
+    }
+
     .About_me {
         margin-top: 300px;
         padding-top: 40px;
@@ -553,8 +555,7 @@ footer a {
 
     }
 
-    .About_me .About_me_flex
-    p {
+    .About_me .About_me_flex p {
         width: 100%;
         height: auto;
         text-align: center;
@@ -578,6 +579,21 @@ footer a {
 
     .Card_Component img {
         width: 70px;
+    }
+
+    .Card_Component2 {
+        display: block;
+        margin: 50px auto;
+        position: relative;
+        padding: 20px;
+        max-width: 400px;
+        max-height: 400px;
+
+    }
+
+    .Card_Component2 img {
+        width: 100px;
+        height: auto;
     }
 
 
@@ -663,8 +679,9 @@ footer a {
     }
 
     .portfolio-nav img {
-        display :none; 
-    }   
+        display: none;
+    }
+
     .About_me {
         margin-top: 180px;
         /* Smaller value for mobile screens */
@@ -726,5 +743,20 @@ footer a {
     .Card_Component img {
         width: 60px;
         /* further reduced image size */
+    }
+
+    .Card_Component2 {
+        display: block;
+        margin: 50px auto;
+        position: relative;
+        padding: 20px;
+        max-width: 300px;
+        max-height: 300px;
+
+    }
+
+    .Card_Component2 img {
+        width: 50px;
+        height: auto;
     }
 }
