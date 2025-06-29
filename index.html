@@ -11,16 +11,22 @@
 
 <body>
     <!--Navigation bar for my page-->
-    <nav class="portfolio-nav">
-        <h3 aria-label="Portfolio">Josh Cacayan's Portfolio</h3>
-        <ul aria-label="navigation items">
+    <div class="portfolio-nav">
+        <b>
+            <h3 aria-label="Portfolio">Josh Cacayan's Portfolio</h3>
+        </b>
+        <div id="nav-items" aria-label="navigation items">
             <li><a href="#home" aria-label="Home_Page">Home</a></li>
             <li><a href="#aboutme" aria-label="About_Me_Page">About Me</a></li>
             <li><a href="#skills" aria-label="Skill_Page">Skills</a></li>
             <li><a href="#projects" aria-label="Project_Page">Projects</a></li>
             <li><a href="#contact" aria-label="Contact_Page">Contact Me</a></li>
-        </ul>
-    </nav>
+        </div>
+        <!--function for the navbar i guess..-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <div tabindex="-1" class="HomePage" id="home">
         <img src="./assetImages/Josh_Cacayan.png" alt="Josh Cacayan's Picture" />
         <h1>Josh Cacayan</h1>
@@ -154,9 +160,10 @@
                 <div class="Card_Component2">
                     <img src="./assetImages/projectImages/PlantPro/PlantProLogo.png" alt="PlantPro_Image" />
                     <h2> Plant Pro</h2>
-                    <div class = "projectdescription">
+                    <div class="projectdescription">
                         <p> An app that monitors your plants through devices.</p>
-                        <p> Skills Developed: PHP, Rest API, Html, CSS, Postgresql, Python, Agile Methodology, TeamWork</p>
+                        <p> Skills Developed: PHP, Rest API, Html, CSS, Postgresql, Python, Agile Methodology, TeamWork
+                        </p>
                     </div>
                 </div>
             </a>
@@ -164,10 +171,11 @@
                 <div class="Card_Component2">
                     <img src="./assetImages/projectImages/Vibelog/VibelogLogo.png" alt="Picture of Vibelog Logo" />
                     <h2>Vibelog</h2>
-                    <div class = "projectdescription">
+                    <div class="projectdescription">
                         <p>Journaling app that helps track a user's mental health through mood trends overtime and AI
                             powered advice daily.</p>
-                        <p>Skills Developed: PHP, Docker, PostgreSQL, Javascript, Leadership, Agile Methodology, AWS, REST API and cron
+                        <p>Skills Developed: PHP, Docker, PostgreSQL, Javascript, Leadership, Agile Methodology, AWS,
+                            REST API and cron
                             job scheduling. Developed the AI by getting an api key from Gemini. </p>
                     </div>
                 </div>
@@ -177,10 +185,11 @@
                     <img src="./assetImages/projectImages/Video_Game_Patterns/GameController.png"
                         alt="Picture of Game Controller" />
                     <h2>Video Game Patterns</h2>
-                    <div class = "projectdescription">
-                        <p>Studies the correlations between the genre of video games people play and other factors such as
-                        country
-                        and gaming system.</p>
+                    <div class="projectdescription">
+                        <p>Studies the correlations between the genre of video games people play and other factors such
+                            as
+                            country
+                            and gaming system.</p>
                         <p>Skills Developed: Python, Seaborn, Pandas, Data analysis</p>
                     </div>
                 </div>
@@ -189,7 +198,7 @@
                 <div class="Card_Component2">
                     <img src="./assetImages/projectImages/ChatRoom/ClientProgram.png" alt="ChatRoom_Project" />
                     <h2>Chat Application</h2>
-                    <div class = "projectdescription">
+                    <div class="projectdescription">
                         <p> A program that simulates a private chat room using sockets.</p>
                         <p> Skills Developed: Socket based Programming, C.</p>
                     </div>
@@ -200,17 +209,17 @@
                     <img src="./assetImages/projectImages/Music_And_Mental/Music_Mental_Healt.png"
                         alt="Music_Mental_Analysis" />
                     <h2>Music And Mental Health</h2>
-                        <div class = "projectdescription">
-                            <p>What listening factors predict ones perception of music improving mental health?</p>
-                            <p>Skills Developed: Weka, Data Analysis, Machine Learning Algorithms</p>
-                        </div>
+                    <div class="projectdescription">
+                        <p>What listening factors predict ones perception of music improving mental health?</p>
+                        <p>Skills Developed: Weka, Data Analysis, Machine Learning Algorithms</p>
+                    </div>
                 </div>
             </a>
             <a href="Projects/DeanGullBall.html" aria-label="Dean_Gullball_Project">
                 <div class="Card_Component2">
                     <img src="./assetImages/projectImages/DeanGullBall/DeanGULLBERRY.png" alt="Dean_Gull_Project" />
                     <h2>Dean Gullball</h2>
-                    <div class = "projectdescription">
+                    <div class="projectdescription">
                         <p>Simple 3d Roll-a-Ball Game that contains hard levels</p>
                         <p>Skills Developed: C#, Unity, Team</p>
                     </div>
@@ -221,7 +230,7 @@
                     <img src="./assetImages/projectImages/Stuck_At_Main/StuckAtMain.png"
                         alt="Stuck_At_Old_Main_Picture" />
                     <h2>Stuck At Old Main</h2>
-                    <div class = "projectdescription">
+                    <div class="projectdescription">
                         <p>Hidden object 2d game.</p>
                         <p>Skills Developed: Gamemaker studio, GML</p>
                     </div>
@@ -261,7 +270,17 @@
             <a href="mailto:joshacacayan@gmail.com">joshacacayan@gmail.com</a>
         </p>
     </footer>
-
+    <!--Hamburger Menu-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nav-items");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
