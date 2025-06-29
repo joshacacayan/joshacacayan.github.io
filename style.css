@@ -26,11 +26,11 @@ a {
     transition: top 0.3s;
     top: -50px;
     position: fixed;
-    background-color: #ffffff;
+    background-color: #f0fbfc;
     display: flex;
     color: #4e4f50;
     font-style: arial sans-serif;
-    border: 2px solid #2C2F33;
+    border: 2px solid #55fdfd;
     border-radius: 5px;
     margin: auto;
     padding: 35px;
@@ -41,6 +41,7 @@ a {
     box-sizing: border-box;
     justify-content: space-between;
     z-index: 10;
+    box-shadow: 5px 5px 20px #000000;
 }
 
 /* profile pic */
