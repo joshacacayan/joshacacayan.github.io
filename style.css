@@ -80,14 +80,10 @@ a {
     text-decoration: none;
     background-color: #4e4f50;
     color: white;
-    /* Button text color */
     border: 2px solid #2C2F33;
-    /* Border for the button */
     border-radius: 5px;
-    /* Rounded corners */
     font-size: 1rem;
     text-align: center;
-    /* Center the text */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 .portfolio_nav img {
@@ -110,7 +106,6 @@ a {
     text-align: center;
     color: white; 
     padding-top: 120px;
-    /* Adjust this to prevent overlap */
 }
 
 .HomePage img {
@@ -129,14 +124,10 @@ a {
     text-decoration: none;
     background-color: white;
     color: #4e4f50;
-    /* Button text color */
     border: 2px solid white;
-    /* Border for the button */
     border-radius: 5px;
-    /* Rounded corners */
     font-size: 1rem;
     text-align: center;
-    /* Center the text */
     transition: all 0.3s;
 }
 
@@ -277,22 +268,18 @@ a {
 .Card_Component {
     display: block;
     margin: 20px auto;
-    /* reduced margin to fit in one page */
     position: relative;
     padding: 20px;
     border-radius: 5px;
     width: 180px;
-    /* smaller width for more cards per row */
     height: auto;
     background-color: white;
     border-width: 15px;
-    /* reduced border width */
     border-color: solid white;
     text-align: center;
     color: #4e4f50;
     box-shadow: 5px 5px 20px #000000;
     transition: transform 0.3s ease;
-    /* add hover effect */
 }
 
 .Card_Component:hover {
@@ -302,10 +289,12 @@ a {
 
 .Card_Component img {
     width: 80px;
-    /* reduced image size */
     height: auto;
     border-radius: 5px;
 }
+
+
+/* Cards for the projects */
 
 .Card_Component2 {
     display: block;
@@ -313,8 +302,8 @@ a {
     position: relative;
     padding: 20px;
     border-radius: 5px;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 600px;
+    max-height: 600px;
     background-color:#a5fafa;
     border-width: 30px;
     border-color: solid white;
@@ -326,7 +315,7 @@ a {
 }
 
 .Card_Component2:hover {
-    background-color: #9cecec;
+    background-color: #55fdfd;
     transform: translateY(-10px)
 }
 
@@ -341,6 +330,12 @@ a {
     text-align: center;
     color: #4e4f50;
 }
+
+
+
+
+
+
 
 /*Image for the cards */
 
