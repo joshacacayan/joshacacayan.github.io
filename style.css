@@ -49,6 +49,31 @@ a {
     display: none;
 }
 
+#nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+#nav-items a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+#nav-items a:hover {
+    color: #55fdfd;
+}
+
+.portfolio-nav a.icon {
+    display: none;
+    /* Hidden on desktop */
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
 .portfolio-nav a {
     color: white;
     padding: 14px 16px;
@@ -711,29 +736,38 @@ footer a {
 
 @media only screen and (max-width: 500px) {
 
-    .portfolio-nav a {
-        padding: 5px 10px;
-        /* Further reduce padding */
-        font-size: 12px;
-        /* Smaller font size */
-        width: 70%;
-        /* Make buttons even smaller */
-    }
-
-    .portfolio-nav h3 {
+    /* Hide nav links by default */
+    .portfolio-nav #nav-items {
         display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f0fbfc;
     }
 
+    /* Show nav links when toggled via JS */
+    .portfolio-nav #nav-items.show {
+        display: flex;
+    }
+
+    /* Show hamburger icon */
     .portfolio-nav a.icon {
         display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
     }
 
-    .portfolio-nav img {
-        display: none;
+    /* Make nav bar stack vertically */
+    .portfolio-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Make nav links fill full width and stack */
+    .portfolio-nav a {
+        float: none;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding: 14px 16px;
+        border-top: 1px solid #ccc;
     }
 
     .About_me {
