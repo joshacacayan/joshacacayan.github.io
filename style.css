@@ -720,6 +720,18 @@ footer a {
         /* Make buttons even smaller */
     }
 
+    .portfolio-nav h3 {
+        display: none;
+    }
+
+    .portfolio-nav a.icon {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
     .portfolio-nav img {
         display: none;
     }
