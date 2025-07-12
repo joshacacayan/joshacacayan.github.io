@@ -917,12 +917,13 @@ button {
 
     .Dean_GullBall_Project_Div .ScreenShots_Patterns img {
         width: 100%;
-        max-width: 500px;
+        max-width: 350px;
     }
 
     .Video_Game_Pattern_Page .ScreenShots_Patterns img {
         width: 100%;
-        max-width: 500px;
+        max-width: 350px;
+        height: auto;
     }
 
     .Video_Game_Pattern_Page p {
