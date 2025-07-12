@@ -329,13 +329,7 @@ button {
 
 @media only screen and (max-width: 500px) {
     .Chat_App_Main_Page .Chat_Image {
-        display: block;
-        width: 100%;
-        max-width: 500px;
-        height: 500px;
-        margin: 0 auto;
-        border-radius: 10px;
-
+        display: none;
     }
 }
 
