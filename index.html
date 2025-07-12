@@ -16,19 +16,16 @@
     <!--Navigation bar for my page-->
     <div class="portfolio-nav">
         <h3 aria-label="Portfolio">Josh Cacayan's Portfolio</h3>
-
-        <!-- Nav items (desktop + toggled on mobile) -->
-        <ul id="nav-items" class="nav-hidden" aria-label="navigation items">
-            <li><a href="#contact" aria-label="Contact_Page">Contact Me</a></li>
-            <li><a href="#projects" aria-label="Project_Page">Projects</a></li>
-            <li><a href="#skills" aria-label="Skill_Page">Skills</a></li>
-            <li><a href="#aboutme" aria-label="About_Me_Page">About Me</a></li>
-            <li><a href="#home" aria-label="Home_Page">Home</a></li>
-        </ul>
-
-        <!-- Hamburger button -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Menu Toggle">
-            <i class="fas fa-bars">☰</i>
+        <div id="nav-items" aria-label="navigation items">
+            <a href="#contact" aria-label="Contact_Page">Contact Me</a>
+            <a href="#projects" aria-label="Project_Page">Projects</a>
+            <a href="#skills" aria-label="Skill_Page">Skills</a>
+            <a href="#aboutme" aria-label="About_Me_Page">About Me</a>
+            <a href="#home" aria-label="Home_Page">Home</a>
+        </div>
+        <!--function for the navbar i guess..-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
         </a>
     </div>
     <div tabindex="-1" class="HomePage" id="home">
@@ -277,7 +274,12 @@
     <!--Hamburger Menu-->
     <script>
         function myFunction() {
-            document.getElementById("nav-items").classList.toggle("nav-hidden");
+            var x = document.getElementById("nav-items");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
         }
     </script>
 </body>
