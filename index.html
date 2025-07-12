@@ -16,7 +16,7 @@
     <!--Navigation bar for my page-->
     <div class="portfolio-nav">
         <h3 aria-label="Portfolio">Josh Cacayan's Portfolio</h3>
-        <div id="nav-items" aria-label="navigation items">
+        <div id="nav-items" class="nav-hidden" aria-label="navigation items">
             <a href="#contact" aria-label="Contact_Page">Contact Me</a>
             <a href="#projects" aria-label="Project_Page">Projects</a>
             <a href="#skills" aria-label="Skill_Page">Skills</a>
@@ -24,7 +24,7 @@
             <a href="#home" aria-label="Home_Page">Home</a>
         </div>
         <!--function for the navbar i guess..-->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Menu Toggle">
             <i class="fas fa-bars">☰</i>
         </a>
     </div>
@@ -274,12 +274,7 @@
     <!--Hamburger Menu-->
     <script>
         function myFunction() {
-            var x = document.getElementById("nav-items");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
+            document.getElementById("nav-items").classList.toggle("nav-hidden");
         }
     </script>
 </body>

@@ -22,96 +22,96 @@ a {
     color: white;
 }
 
+
 .portfolio-nav {
     transition: top 0.3s;
-    top: -50px;
     position: fixed;
+    top: 0;
     background-color: #f0fbfc;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     color: #4e4f50;
-    font-style: arial sans-serif;
+    font-family: Arial, sans-serif;
     border: 2px solid black;
     border-radius: 5px;
-    margin: auto;
-    padding: 35px;
+    padding: 20px;
     width: 100%;
-    height: auto;
-    vertical-align: middle;
-    top: 0px;
     box-sizing: border-box;
     justify-content: space-between;
     z-index: 10;
     box-shadow: 5px 5px 20px #000000;
-    overflow: hidden;
 }
 
-.portfolio-nav #myLinks {
-    display: none;
-}
-
-.portfolio-nav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-
-.portfolio-nav a.icon {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.portfolio-nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-/* h3 in element */
 .portfolio-nav h3 {
-    font-size: 15px;
-    float: left;
-    margin: 10px;
+    font-size: 1rem;
+    margin: 0;
     color: #4e4f50;
 }
 
-/* unordered list for the navigation bar */
 .portfolio-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
-
 }
 
-/* Links styles  */
+.portfolio-nav ul li {
+    display: inline-block;
+}
+
 .portfolio-nav a {
-    margin: 10px;
-    float: right;
-    display: block;
     text-decoration: none;
     color: black;
     font-size: 1rem;
-    text-align: center;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
 }
-
-.portfolio_nav img {
-    display: none;
-}
-
 
 .portfolio-nav a:hover {
     color: #55fdfd;
+}
+
+.portfolio-nav .icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: black;
+}
+
+.nav-hidden {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-nav ul {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .portfolio-nav .icon {
+        display: block;
+    }
+
+    .nav-hidden {
+        display: none;
+    }
+
+    .portfolio-nav ul.show {
+        display: flex;
+    }
+
+    .portfolio-nav ul li {
+        text-align: left;
+        width: 100%;
+    }
 }
 
 /*HomePage, the first thing you see when looking at the website */
