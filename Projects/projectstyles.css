@@ -328,7 +328,7 @@ button {
 }
 
 @media only screen and (max-width: 500px) {
-    .Chat_App_Main_Page img {
+    .Chat_App_Main_Page .Chat_Image {
         display: block;
         width: 100%;
         max-width: 500px;
