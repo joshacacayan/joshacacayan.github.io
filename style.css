@@ -774,6 +774,10 @@ footer a {
         border-top: 1px solid #ccc;
     }
 
+    .portfolio-nav h3 {
+        display: none;
+    }
+
     .About_me {
         margin-top: 180px;
         /* Smaller value for mobile screens */
