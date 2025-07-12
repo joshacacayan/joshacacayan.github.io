@@ -58,8 +58,6 @@ a {
 }
 
 .portfolio-nav a.icon {
-    background: black;
-    color: white;
     cursor: pointer;
     display: block;
     position: absolute;
