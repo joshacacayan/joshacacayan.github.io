@@ -752,12 +752,16 @@ footer a {
     /* Show hamburger icon */
     .portfolio-nav a.icon {
         display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 
     /* Make nav bar stack vertically */
     .portfolio-nav {
         flex-direction: column;
         align-items: flex-start;
+
     }
 
     /* Make nav links fill full width and stack */
