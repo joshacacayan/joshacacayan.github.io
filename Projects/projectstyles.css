@@ -21,10 +21,10 @@ button {
     color: white;
     border-radius: 5px;
     border-width: 10px;
-    border-color:white;
-    display:block;
+    border-color: white;
+    display: block;
 
-    
+
 }
 
 /*Plant Pro */
@@ -147,9 +147,9 @@ button {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    border-radius:5px;
+    border-radius: 5px;
     border-width: 10px;
-    border-color:lightblue;
+    border-color: lightblue;
 }
 
 .Main_PageVibelog .Project_DescriptionVibelog {
@@ -190,7 +190,7 @@ button {
     max-width: 600px;
     max-height: auto;
     background-color: white;
-    color:black;
+    color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 10px solid;
     border-color: skyblue;
@@ -342,7 +342,7 @@ button {
 }
 
 
-.Chat_App_Main_Page  .Tools_Used {
+.Chat_App_Main_Page .Tools_Used {
     background-color: lightcoral;
     width: 100%;
     max-width: 700px;
@@ -353,13 +353,13 @@ button {
     margin-top: 30px;
 }
 
-.Chat_App_Main_Page  h2 {
+.Chat_App_Main_Page h2 {
     color: black;
     font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
-.Chat_App_Main_Page  .Tools_Used ul {
+.Chat_App_Main_Page .Tools_Used ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -369,7 +369,7 @@ button {
     margin: 0;
 }
 
-.Chat_App_Main_Page  .Tools_Used img {
+.Chat_App_Main_Page .Tools_Used img {
     width: 100%;
     max-width: 120px;
     margin-bottom: 10px;
@@ -660,7 +660,7 @@ button {
     margin-top: 30px;
 }
 
-.Dean_GullBall_Project_Div  .ScreenShots_Patterns ul {
+.Dean_GullBall_Project_Div .ScreenShots_Patterns ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -670,7 +670,7 @@ button {
     margin: 0;
 }
 
-.Dean_GullBall_Project_Div  .ScreenShots_Patterns li {
+.Dean_GullBall_Project_Div .ScreenShots_Patterns li {
     list-style-type: none;
     margin: 0;
     /* Removes margin */
@@ -682,13 +682,14 @@ button {
     /* Adjust width as per content */
 }
 
-.Dean_GullBall_Project_Div  img {
+.Dean_GullBall_Project_Div img {
     width: 600px;
     height: auto;
     margin-bottom: 10px;
     border-radius: 15px;
 
 }
+
 /*Plant Pro */
 .Music_And_Mental_Health {
     display: flex;
@@ -795,7 +796,7 @@ button {
     margin-top: 30px;
 }
 
- .ScreenShots_Patterns2 ul {
+.ScreenShots_Patterns2 ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -911,19 +912,31 @@ button {
         height: auto;
         margin-bottom: 10px;
         border-radius: 15px;
-    
+
     }
-    .Dean_GullBall_Project_Div .ScreenShots_Patterns img{
+
+    .Dean_GullBall_Project_Div .ScreenShots_Patterns img {
         width: 100%;
         max-width: 500px;
     }
-    .Video_Game_Pattern_Page .ScreenShots_Patterns img{
+
+    .Video_Game_Pattern_Page .ScreenShots_Patterns img {
         width: 100%;
         max-width: 500px;
     }
+
     .Video_Game_Pattern_Page p {
         width: 100%;
         font-size: 14px;
+    }
+
+    .Main_PageVibelog {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        /* Increase gap for spacing */
     }
 
 }
