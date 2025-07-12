@@ -908,7 +908,7 @@ button {
     }
 
     .ScreenShots_Patterns2 img {
-        max-width: 400px;
+        max-width: 350px;
         height: auto;
         margin-bottom: 10px;
         border-radius: 15px;
@@ -934,9 +934,11 @@ button {
         flex-direction: column;
         /* Stack items vertically */
         align-items: center;
+
         justify-content: center;
         gap: 20px;
         /* Increase gap for spacing */
     }
+
 
 }
