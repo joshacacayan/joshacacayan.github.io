@@ -327,6 +327,18 @@ button {
     justify-content: center
 }
 
+@media only screen and (max-width: 500px) {
+    .Chat_App_Main_Page img {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+
+    }
+}
+
 .Chat_App_Main_Page p {
     max-width: 1500px;
     font-size: 18px;
