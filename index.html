@@ -7,25 +7,24 @@
     <title>Josh's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="./assetImages/logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        integrity="sha512-v0UafN2h4A2+pjZSPzo8K0OOfvU8zFqkhrvTmlYaTn9/4u2YHdFupDpBbKlOazrrX2+f1SnwvNKa4g1MCZ8iTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!--Navigation bar for my page-->
     <div class="portfolio-nav">
-        <h3 aria-label="Portfolio">Josh Cacayan's Portfolio</h3>
+        <b>
+            <h3 aria-label="Portfolio">Josh Cacayan's Portfolio</h3>
+        </b>
         <div id="nav-items" aria-label="navigation items">
-            <a href="#contact" aria-label="Contact_Page">Contact Me</a>
-            <a href="#projects" aria-label="Project_Page">Projects</a>
-            <a href="#skills" aria-label="Skill_Page">Skills</a>
-            <a href="#aboutme" aria-label="About_Me_Page">About Me</a>
             <a href="#home" aria-label="Home_Page">Home</a>
+            <a href="#aboutme" aria-label="About_Me_Page">About Me</a>
+            <a href="#skills" aria-label="Skill_Page">Skills</a>
+            <a href="#projects" aria-label="Project_Page">Projects</a>
+            <a href="#contact" aria-label="Contact_Page">Contact Me</a>
         </div>
         <!--function for the navbar i guess..-->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fas fa-bars">☰</i>
+            <i class="fa fa-bars"></i>
         </a>
     </div>
     <div tabindex="-1" class="HomePage" id="home">
@@ -275,7 +274,11 @@
     <script>
         function myFunction() {
             var x = document.getElementById("nav-items");
-            x.classList.toggle("show");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
         }
     </script>
 </body>
