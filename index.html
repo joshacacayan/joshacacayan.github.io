@@ -10,23 +10,38 @@
 </head>
 
 <body>
-    <!--Navigation bar for my page-->
-    <div class="portfolio-nav">
-        <b>
-            <h3 aria-label="Portfolio">Josh Cacayan's Portfolio</h3>
-        </b>
-        <div id="nav-items" aria-label="navigation items">
-            <a href="#home" aria-label="Home_Page">Home</a>
-            <a href="#aboutme" aria-label="About_Me_Page">About Me</a>
-            <a href="#skills" aria-label="Skill_Page">Skills</a>
-            <a href="#projects" aria-label="Project_Page">Projects</a>
-            <a href="#contact" aria-label="Contact_Page">Contact Me</a>
+    <!--Navigation bar for my page implementing bootstrap-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Josh Cacayan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills/Programming Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Me</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Josh Cacayan
+                </span>
+            </div>
         </div>
-        <!--function for the navbar i guess..-->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+    </nav>
     <div tabindex="-1" class="HomePage" id="home">
         <img src="./assetImages/Josh_Cacayan.png" alt="Josh Cacayan's Picture" />
         <h1>Josh Cacayan</h1>
@@ -147,6 +162,18 @@
             <div class="Card_Component">
                 <img src="./assetImages/Skill_Images/GitHub_logo.png" alt="Github Logo">
                 <h2>Github</h2>
+            </div>
+            <div class="Card_Component">
+                <img src="./assetImages/Skill_Images/react_logo.png" alt="React Logo">
+                <h2>React</h2>
+            </div>
+            <div class="Card_Component">
+                <img src="./assetImages/Skill_Images/redis.png" alt="Redis Logo">
+                <h2>Redis</h2>
+            </div>
+            <div class="Card_Component">
+                <img src="./assetImages/Skill_Images/flask_logo.png" alt="Flask Logo">
+                <h2>Flask</h2>
             </div>
         </div>
     </div>
