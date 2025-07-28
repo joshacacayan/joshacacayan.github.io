@@ -167,6 +167,7 @@ a {
     max-width: 1200px;
     color: white;
     gap: 15px;
+
 }
 
 /*Skills */
@@ -198,6 +199,7 @@ a {
     position: relative;
     padding: 20px;
     border-radius: 5px;
+    font-size: 15px;
     width: 180px;
     height: auto;
     background-color: white;
