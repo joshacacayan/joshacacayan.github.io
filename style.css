@@ -27,6 +27,14 @@ a {
     padding-bottom: 0.25rem;
 }
 
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
 .navbar-brand,
 .nav-link {
     padding-top: 0;
