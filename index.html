@@ -15,8 +15,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Josh Cacayan</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button role="button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
@@ -41,7 +42,7 @@
         </div>
     </nav>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <div tabindex="-1" class="HomePage" id="home">
+    <div role="homepage" aria-label="homepage" tabindex="-1" class="HomePage" id="home">
         <img src="./assetImages/Josh_Cacayan.png" alt="Josh Cacayan's Picture" role="profile_picture" />
         <h1 role="my_name">Josh Cacayan</h1>
         <h2 role="school">Software Development @ Kutztown | Data Science</h2>
@@ -62,13 +63,14 @@
             <br />
             <div class="Resume"></div>
             <h3 role="Resume_description">Click below to view my Resume!</h3>
-            <button onclick="window.location.href= './assetImages/Josh_Cacayan_Resume_2025.pdf';">Resume</a>
+            <button role="button"
+                onclick="window.location.href= './assetImages/Josh_Cacayan_Resume_2025.pdf';">Resume</a>
     </div>
     </div>
     <br />
     <br />
 
-    <div id="aboutme" tabindex="-1" class="About_me">
+    <div role="aboutme" aria-label="aboutme" id="aboutme" tabindex="-1" class="About_me">
         <h2 class="headerabout">About Me</h2>
         <div class="About_me_flex">
 
@@ -92,7 +94,7 @@
             <img src="./assetImages/Did_Nye_Cool.png" alt="About_Me_Computer">
         </div>
     </div>
-    <div id="skills" tabindex="-1" class="Skills">
+    <div role="skills" aria-label="skills" id="skills" tabindex="-1" class="Skills">
         <h2 class="headerskill">Skills/Programming Languages</h2>
         <div class="Skill_Flex">
             <div class="Card_Component">
@@ -280,7 +282,7 @@
                 <textarea name="message" placeholder="Your Message" class="contact-inputs" required
                     aria-label="Message Input" aria-required="true" autocomplete="tel"
                     role="message_to_send"></textarea>
-                <button type="submit">Submit</button>
+                <button role="button" type="submit">Submit</button>
             </form>
 
             <div role="picture_of_email" class="contact-right">
