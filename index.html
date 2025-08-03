@@ -42,25 +42,26 @@
     </nav>
     <link rel="stylesheet" type="text/css" href="style.css">
     <div tabindex="-1" class="HomePage" id="home">
-        <img src="./assetImages/Josh_Cacayan.png" alt="Josh Cacayan's Picture" />
-        <h1>Josh Cacayan</h1>
-        <h2>Software Development @ Kutztown | Data Science</h2>
-        <h3><b><i>I don't just build websites, I engineer digital experiences. I don't just analyze data, I develop game
-                    changing insights. Let's make your next project phenomenal.</i></b></h3>
-        <h4>Computer Science major with experience in full stack web development as well as database management
+        <img src="./assetImages/Josh_Cacayan.png" alt="Josh Cacayan's Picture" role="profile_picture" />
+        <h1 role="my_name">Josh Cacayan</h1>
+        <h2 role="school">Software Development @ Kutztown | Data Science</h2>
+        <h3 role="pitch"><b><i>I don't just build websites, I engineer digital experiences. I don't just analyze data, I
+                    develop game changing insights. Let's make your next project phenomenal.</i></b></h3>
+        <h4 role="profession">Computer Science major with experience in full stack web development as well as database
+            management
             and data analytics.
             </h3>
-            <div class="Logos">
-                <a href="https://github.com/joshacacayan" aria-label="Github Page"><img src="./assetImages/github.jpg"
-                        alt="Github page"></a>
-                <a href="https://www.facebook.com/josh.cacayan.1/" aria-label="Facebook Page"><img
+            <div role="logos" class="Logos">
+                <a role="github_page" href="https://github.com/joshacacayan" aria-label="Github Page"><img
+                        src="./assetImages/github.jpg" alt="Github page"></a>
+                <a role="facebook_page" href="https://www.facebook.com/josh.cacayan.1/" aria-label="Facebook Page"><img
                         src="./assetImages/facebook.jpg" alt="Facebook page"></a>
-                <a href=" https://www.linkedin.com/in/josh-cacayan/" aria-label="Linkedin Page"><img
-                        src="./assetImages/linkedin.jpg" alt="Linkedin page"></a>
+                <a role="linkedin_page" href=" https://www.linkedin.com/in/josh-cacayan/"
+                    aria-label="Linkedin Page"><img src="./assetImages/linkedin.jpg" alt="Linkedin page"></a>
             </div>
             <br />
             <div class="Resume"></div>
-            <h3>Click below to view my Resume!</h3>
+            <h3 role="Resume_description">Click below to view my Resume!</h3>
             <button onclick="window.location.href= './assetImages/Josh_Cacayan_Resume_2025.pdf';">Resume</a>
     </div>
     </div>
@@ -88,7 +89,7 @@
                 <br>If you need help in managing a database, making a web site, or analyzing data, let me know. In
                 addition to that, I also like to read books, play video games, and jog in my spare time.
             </p>
-            <img src="./assetImages/Did_Nye_Cool.png">
+            <img src="./assetImages/Did_Nye_Cool.png" alt="About_Me_Computer">
         </div>
     </div>
     <div id="skills" tabindex="-1" class="Skills">
@@ -269,26 +270,27 @@
         <div class="Contact-flex">
             <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
                 <div class="contact-left-title">
-                    <h2>Get in touch</h2>
+                    <h2 role="get_in_touch">Get in touch</h2>
                 </div>
                 <input type="hidden" name="access_key" value="c47626ad-df12-4340-979d-8eedaddf1e7b">
                 <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required
-                    aria-label="Name Input" aria-required="true">
+                    aria-label="Name Input" aria-required="true" autocomplete="name" role="name">
                 <input id="email" type="email" name="email" placeholder="Your Email" class="contact-inputs" required
-                    aria-label="Email Input" aria-required="true" autocomplete="given-email">
+                    aria-label="Email Input" aria-required="true" autocomplete="email" role="email">
                 <textarea name="message" placeholder="Your Message" class="contact-inputs" required
-                    aria-label="Message Input" aria-required="true"></textarea>
+                    aria-label="Message Input" aria-required="true" autocomplete="tel"
+                    role="message_to_send"></textarea>
                 <button type="submit">Submit</button>
             </form>
 
-            <div class="contact-right">
+            <div role="picture_of_email" class="contact-right">
                 <img src="./assetImages/EmailPicture.png" alt="Email_Picture">
             </div>
         </div>
     </div>
 
     <footer>
-        <p>Copyright
+        <p role="footer">Copyright
             <script>document.write(new Date().getUTCFullYear());</script> Josh Cacayan
             <br>
             All Rights Reserved
