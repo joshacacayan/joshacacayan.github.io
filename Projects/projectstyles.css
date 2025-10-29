@@ -112,13 +112,9 @@ button {
 .Main_Page .Tools_Used li {
     list-style-type: none;
     margin: 0;
-    /* Removes margin */
     padding: 0;
-    /* Removes padding */
     flex-shrink: 0;
-    /* Prevents shrinking */
     width: auto;
-    /* Adjust width as per content */
 }
 
 .Main_Page video {
@@ -216,13 +212,9 @@ button {
 .Main_PageVibelog .Tools_UsedVibelog li {
     list-style-type: none;
     margin: 0;
-    /* Removes margin */
     padding: 0;
-    /* Removes padding */
     flex-shrink: 0;
-    /* Prevents shrinking */
     width: auto;
-    /* Adjust width as per content */
 }
 
 /* Media Query for Smaller Screens */
@@ -446,13 +438,9 @@ button {
 .Video_Game_Pattern_Page .Tools_Used li {
     list-style-type: none;
     margin: 0;
-    /* Removes margin */
     padding: 0;
-    /* Removes padding */
     flex-shrink: 0;
-    /* Prevents shrinking */
     width: auto;
-    /* Adjust width as per content */
 }
 
 .Video_Game_Pattern_Page .Project_Description {
@@ -504,13 +492,9 @@ button {
 .Video_Game_Pattern_Page .ScreenShots_Patterns li {
     list-style-type: none;
     margin: 0;
-    /* Removes margin */
     padding: 0;
-    /* Removes padding */
     flex-shrink: 0;
-    /* Prevents shrinking */
     width: auto;
-    /* Adjust width as per content */
 }
 
 .Video_Game_Pattern_Page img {
@@ -797,6 +781,8 @@ button {
     max-width: 2000px;
     padding: 30px;
     border-radius: 15px;
+    margin: 0 auto;
+    justify-content: center;
     border: 2px solid lightskyblue;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     margin-top: 30px;
@@ -939,12 +925,10 @@ button {
 
     .Main_PageVibelog {
         flex-direction: column;
-        /* Stack items vertically */
         align-items: center;
 
         justify-content: center;
         gap: 20px;
-        /* Increase gap for spacing */
     }
 
 
