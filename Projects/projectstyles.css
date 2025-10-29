@@ -766,7 +766,7 @@ button {
     max-width: 2000px;
     padding: 30px;
     border-radius: 15px;
-    margin: 0;
+    margin: auto;
     justify-content: center;
     align-items: center;
 
