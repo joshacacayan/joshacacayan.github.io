@@ -1,3 +1,5 @@
+/* This is all of the styles for the project pages. :p */
+
 body {
     background-color: #2C2F33;
     margin: 0;
@@ -221,11 +223,9 @@ button {
 @media only screen and (max-width: 1324px) {
     .Main_Page {
         flex-direction: column;
-        /* Stack items vertically */
         align-items: center;
         justify-content: center;
         gap: 20px;
-        /* Increase gap for spacing */
     }
 
     .Logo {
@@ -240,7 +240,6 @@ button {
         max-width: 450px;
         padding: 15px;
         font-size: 16px;
-        /* Make text a bit smaller for small screens */
         order: 4;
     }
 
@@ -248,25 +247,20 @@ button {
         width: 80%;
         max-width: 400px;
         height: auto;
-        /* Allow it to adjust based on content */
         border-radius: 10px;
-        /* Slightly more rounded border */
         border-width: 8px;
     }
 
     .Main_Page .Tools_Used ul {
         gap: 8px;
-        /* Reduced gap for smaller screens */
     }
 
     .Main_Page .Tools_Used img {
         max-width: 80px;
-        /* Smaller icons for mobile */
     }
 
     .Main_Page video {
         width: 100%;
-        /* Make video responsive */
         max-width: 500px;
         order: 2
     }
@@ -380,6 +374,9 @@ button {
     flex-shrink: 0;
     width: auto;
 }
+
+/* Media Query for bigger screens */
+
 
 @media only screen and (max-width: 1324px) {
     .Chat_App_Main_Page img {
@@ -569,12 +566,9 @@ button {
 
 .Stuck_At_Main_Page video {
     max-width: 100%;
-    /* Prevents the video from exceeding the container width */
     height: auto;
-    /* Maintains aspect ratio */
     display: block;
     margin-top: 20px;
-    /* Adds space between the paragraph and video */
 }
 
 .Dean_GullBall_Project_Div {
@@ -582,7 +576,6 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* Changed to column to stack content vertically */
     text-align: center;
     margin: 0 auto;
     padding: 20px;
@@ -663,13 +656,9 @@ button {
 .Dean_GullBall_Project_Div .ScreenShots_Patterns li {
     list-style-type: none;
     margin: 0;
-    /* Removes margin */
     padding: 0;
-    /* Removes padding */
     flex-shrink: 0;
-    /* Prevents shrinking */
     width: auto;
-    /* Adjust width as per content */
 }
 
 .Dean_GullBall_Project_Div img {
@@ -765,13 +754,9 @@ button {
 .Music_And_Mental_Health .Tools_Used li {
     list-style-type: none;
     margin: 0;
-    /* Removes margin */
     padding: 0;
-    /* Removes padding */
     flex-shrink: 0;
-    /* Prevents shrinking */
     width: auto;
-    /* Adjust width as per content */
 }
 
 
@@ -781,8 +766,10 @@ button {
     max-width: 2000px;
     padding: 30px;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 0;
     justify-content: center;
+    align-items: center;
+
     border: 2px solid lightskyblue;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     margin-top: 30px;
@@ -801,13 +788,9 @@ button {
 .ScreenShots_Patterns2 li {
     list-style-type: none;
     margin: 0;
-    /* Removes margin */
     padding: 0;
-    /* Removes padding */
     flex-shrink: 0;
-    /* Prevents shrinking */
     width: auto;
-    /* Adjust width as per content */
 }
 
 .Music_And_Mental_Health img {
@@ -859,20 +842,22 @@ button {
         width: 80%;
         max-width: 400px;
         height: auto;
-        /* Allow it to adjust based on content */
         border-radius: 10px;
-        /* Slightly more rounded border */
         border-width: 8px;
     }
 
     .Music_And_Mental_Health .Tools_Used ul {
         gap: 8px;
-        /* Reduced gap for smaller screens */
     }
 
     .Music_And_Mental_Health .Tools_Used img {
         max-width: 80px;
-        /* Smaller icons for mobile */
+    }
+
+    .ScreenShots_Patterns2 {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
     }
 }
 
