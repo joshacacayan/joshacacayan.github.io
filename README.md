@@ -12,7 +12,7 @@
   - Projects directory is the directory that I use in order to put in all of my individual projects that I did overall in my academic year, and on my free time
   - Asset images are the images that I use in order to load up all of the images that are on my site
   - There is a button that leads to my resume, you can click on it to view.
-## Later implementations and integrations since I do not have time right now
+## Later implementations and integrations
   - SEO Keywords into meta tags so that whenever someone would try to look up a person, they can use key words in order to find me online
   - React will be implemented into the website, as I am still a beginner in React
   - While my website does try to follow ada compliance, I will try to make sure to increase my ada compliance score, as my alt text may not be the strongest as of right now
