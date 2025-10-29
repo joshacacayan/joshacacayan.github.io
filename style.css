@@ -3,6 +3,8 @@ html:focus-within {
     scroll-behavior: smooth;
 }
 
+/*Main menu */
+
 body {
     background-color: #2C2F33;
     margin: 0;
@@ -651,7 +653,7 @@ footer a {
         background-color: #f0fbfc;
     }
 
-    /* Show nav links when toggled via JS */
+    /* Show nav links when toggled via the JS */
     .portfolio-nav #nav-items.show {
         display: flex;
     }
@@ -664,7 +666,7 @@ footer a {
         margin: 0 auto;
     }
 
-    /* Make nav bar stack vertically */
+    /* Make the navigation bar stack */
     .portfolio-nav {
         flex-direction: column;
         align-items: flex-start;
@@ -745,7 +747,7 @@ footer a {
 
     .Card_Component img {
         width: 60px;
-        /* further reduced image size */
+        /* mobile image size */
     }
 
     .Card_Component2 {
